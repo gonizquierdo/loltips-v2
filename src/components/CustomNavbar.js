@@ -26,10 +26,10 @@ export default class CustomNavbar extends React.Component {
          </ul>
        </div>
 
-       <div class="navbar-collapse collapse">
-         <ul class="nav nav-pills nav-fill ml-auto">
-            <li class="nav-item">
-              <Link to="/" class="nav-link bg-dark text-light" >{t("navbar.subscribe")}</Link>
+       <div className="navbar-collapse collapse">
+         <ul className="nav nav-pills nav-fill ml-auto">
+            <li className="nav-item">
+              <Link to="/" className="nav-link bg-dark text-light" >{t("navbar.subscribe")}</Link>
             </li>
          </ul>
        </div>
@@ -37,4 +37,3 @@ export default class CustomNavbar extends React.Component {
 )
  }
 }
-

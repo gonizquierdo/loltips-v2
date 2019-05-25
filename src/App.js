@@ -13,9 +13,9 @@ function App() {
         <CustomNavbar/>
         <header className="App-header">
         </header>
-        <Route exact path="/" component={MainPatchInfo} patch='9.10'/>
-        <Route path="/about_us" component={AboutUs}/>
-        <Route path="/subscribe" component={AboutUs} patch='9.10'/>
+        <Route exact path="/" component={() => <MainPatchInfo patch='9.10'/>} />
+        <Route path="/about_us" component={() => <AboutUs />}/>
+        <Route path="/subscribe" component={() => <AboutUs />}/>
       </div>
     </Router>
   );
