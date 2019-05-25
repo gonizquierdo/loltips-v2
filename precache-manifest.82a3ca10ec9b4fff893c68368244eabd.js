@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93547f263089e66af4893e8d241604d7",
+    "revision": "9cd8fa431c11940e734c1b55fda3dfe0",
     "url": "/loltips-v2/index.html"
   },
   {
-    "revision": "371adf467f0a218e96c8",
+    "revision": "814840f1490c93a4f6fb",
     "url": "/loltips-v2/static/css/main.dd36c71b.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loltips-v2/static/js/2.3ea1fe19.chunk.js"
   },
   {
-    "revision": "371adf467f0a218e96c8",
-    "url": "/loltips-v2/static/js/main.fbb6eb07.chunk.js"
+    "revision": "814840f1490c93a4f6fb",
+    "url": "/loltips-v2/static/js/main.f0e05843.chunk.js"
   },
   {
     "revision": "4506a93cbbf48ea9a746",
