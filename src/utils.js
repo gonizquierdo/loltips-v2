@@ -1,6 +1,29 @@
-import { patches } from './data/patches.js'
+import { config } from './data/config.js'
 import { summary } from './data/summary.js'
 
+export function getTopChampions(patch)
+{
+  return summary[patch]["top_champions"]
+}
+
+export function getBuffsList(patch)
+{
+  return summary[patch]["buffs"]
+}
+
+export function getNerfsList(patch)
+{
+  return summary[patch]["nerfs"]
+}
+
+export function getUpdatesList(patch)
+{
+  return summary[patch]["updates"]
+}
+
+export function getCurrentPatch(){
+  return config["currentPatch"]
+}
 export function getChampionsTiles()
 {
   return {
@@ -152,26 +175,13 @@ export function getChampionsTiles()
   }
 }
 
-export function getChampionsTiers(patch)
+export function getRoleIcons()
 {
-  return summary[patch]["tiers"]
-}
-
-export function getBuffsList(patch)
-{
-  return summary[patch]["buffs"]
-}
-
-export function getNerfsList(patch)
-{
-  return summary[patch]["nerfs"]
-}
-
-export function getUpdatesList(patch)
-{
-  return summary[patch]["updates"]
-}
-
-export function getCurrentPatch(){
-  return Math.max(patches)
+  return {
+    'top': require('./assets/roles/Top_icon.png'),
+    'jg': require('./assets/roles/Jungle_icon.png'),
+    'mid': require('./assets/roles/Middle_icon.png'),
+    'adc': require('./assets/roles/Bottom_icon.png'),
+    'sup': require('./assets/roles/Support_icon.png')
+  }
 }

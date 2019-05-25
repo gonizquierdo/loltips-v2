@@ -1,5 +1,4 @@
 import React from 'react'
-import {Container, Col, Row} from 'react-bootstrap'
 
 import TierList from './TierList'
 import PatchNotes from './PatchNotes'
@@ -14,17 +13,19 @@ export default class MainPatchInfo extends React.Component
     const { patch } = this.props
     return (
       <div className='main-patch'>
-        <h1>Patch {patch} insights</h1>
-        <Container>
-          <Row>
-            <Col lg="6">
+        <h1 className="current-patch">Patch {patch}</h1>
+        <div className="container">
+          <div className="row">
+            <div className="col">
               <TierList patch={patch} />
-            </Col>
-            <Col>
+            </div>
+            <div className="col">
               <PatchNotes patch={patch} />
-            </Col>
-          </Row>
-        </Container>
+            </div>
+          </div>
+        </div>
+        <div className="bait">
+        </div>
       </div>
     )
   }

@@ -1,10 +1,12 @@
 export const summary = {
   "9.10":
     {
-      "tiers": {
-        "s":["Yuumi", "Kaisa", "Hecarim", "Zed", "Morgana", "Twitch", "JarvanIV", "Riven", "Jinx", "RekSai", "Corki", "Sona"],
-        "a":["Yuumi"],
-        "b":["Kaisa"]
+      "top_champions": {
+        "top":["Jax", "Renekton", "Riven"],
+        "jg":["Sejuani", "Nunu", "RekSai"],
+        "mid":["Ahri", "Talon", "Kassadin"],
+        "adc": ["Kaisa", "Jinx", "Sivir"],
+        "sup": ["Thresh", "Nautilus", "Pyke"]
       },
       "buffs": [
         "Más daño para Urbot",

@@ -7,7 +7,7 @@ import AboutUs from './components/AboutUs'
 import {getCurrentPatch} from './utils.js'
 
 function App() {
-  const currentPatch = '9.10';
+  const currentPatch = getCurrentPatch();
   return (
     <Router>
       <div className="App">
