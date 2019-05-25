@@ -1,7 +1,7 @@
 {
   "main.css": "/loltips-v2/static/css/main.29bd3d30.chunk.css",
-  "main.js": "/loltips-v2/static/js/main.a5b0d420.chunk.js",
-  "main.js.map": "/loltips-v2/static/js/main.a5b0d420.chunk.js.map",
+  "main.js": "/loltips-v2/static/js/main.2fe6d64c.chunk.js",
+  "main.js.map": "/loltips-v2/static/js/main.2fe6d64c.chunk.js.map",
   "static/js/1.00d4ac3e.chunk.js": "/loltips-v2/static/js/1.00d4ac3e.chunk.js",
   "static/js/1.00d4ac3e.chunk.js.map": "/loltips-v2/static/js/1.00d4ac3e.chunk.js.map",
   "runtime~main.js": "/loltips-v2/static/js/runtime~main.e4eddad4.js",
@@ -152,6 +152,6 @@
   "static/media/Zyra.png": "/loltips-v2/static/media/Zyra.3049bbc2.png",
   "static/css/main.29bd3d30.chunk.css.map": "/loltips-v2/static/css/main.29bd3d30.chunk.css.map",
   "index.html": "/loltips-v2/index.html",
-  "precache-manifest.56ae7938b4f79f2cfb8565a44f18e23e.js": "/loltips-v2/precache-manifest.56ae7938b4f79f2cfb8565a44f18e23e.js",
+  "precache-manifest.586226455bce1d788764c2799ec934d1.js": "/loltips-v2/precache-manifest.586226455bce1d788764c2799ec934d1.js",
   "service-worker.js": "/loltips-v2/service-worker.js"
 }
