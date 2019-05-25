@@ -26,14 +26,24 @@
   background-color: #676e7b;
 }
 
-.main-patch h4 {
+h4 {
   text-transform: uppercase;
-  display:block;
+}
+.main-patch h1 {
+  margin-bottom: 2%;
+  text-transform: uppercase;
+}
+.wrapped {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .champion-icon {
   width: 60px;
   height: 60px;
+}
+.info-panel {
+  text-align: justify;
 }
 @keyframes App-logo-spin {
   from {

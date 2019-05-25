@@ -1,10 +1,14 @@
 import React from 'react'
-import {Container, Col, Row, Media} from 'react-bootstrap'
+import { Media } from 'react-bootstrap'
+
+
 export default class TierList extends React.Component
 {
+  props: {
+    patch: 'string'
+  }
 
   render() {
-
     const tiles = {
       'Aatrox': require('../assets/champion/Aatrox.png'),
       'Ahri': require('../assets/champion/Ahri.png'),
@@ -153,41 +157,77 @@ export default class TierList extends React.Component
 
     }
 
+    const godChamps = ['Yuumi', 'Kaisa', 'Hecarim', 'Zed', 'Morgana', 'Twitch', 'JarvanIV', 'Riven', 'Jinx', 'RekSai', 'Corki', 'Sona']
+
+
+    const { patch } = this.props
+
     return (
-      <Container>
-        <Row>
+      <div className='container info-panel'>
+
+        <h2> Champions Tier list </h2>
+        <p> This are the champion tiers for patch {patch}. Although it is not a certain win, playing champions that are strong in the current meta can give you an advantage over your opponent.</p>
+
+        <div className="tier">
           <h4> God champs </h4>
-        </Row>
-        <Row>
-          <p> These champs are super strong, probably unbalanced.</p>
-        </Row>
-        <Row>
-        {Object.keys(tiles).map(key =>
-          <Media>
-            <img
-              width={64}
-              height={64}
-              className="mr-3"
-              src={tiles[key]}
-              alt="Generic placeholder"
-            />
-          </Media>
-        )
-        }
-        </Row>
-        <Row>
+          <p> These champs are super strong, probably unbalanced. If you main one of these, this is your time to farm the LP.</p>
+
+          <div className="wrapped">
+          {godChamps.map(champ =>
+            <Media>
+              <img
+                width={64}
+                height={64}
+                className="mr-1 mb-1"
+                src={tiles[champ]}
+                alt={champ}
+              />
+            </Media>
+          )
+          }
+          </div>
+        </div>
+
+        <div className="tier">
           <h4> Awesome champs </h4>
-        </Row>
-        <Row>
-          <p> These champs are super strong, probably unbalanced.</p>
-        </Row>
-        <Row>
+          <p>Very strong champions! Consider these as strong picks that could be among the best champions in any moment.</p>
+
+          <div className="wrapped">
+          {godChamps.map(champ =>
+            <Media>
+              <img
+                width={64}
+                height={64}
+                className="mr-1 mb-1"
+                src={tiles[champ]}
+                alt={champ}
+              />
+            </Media>
+          )
+          }
+          </div>
+        </div>
+
+        <div className="tier">
           <h4> Cool strong champs </h4>
-        </Row>
-        <Row>
-          <p> These champs are super strong, probably unbalanced.</p>
-        </Row>
-      </Container>
+          <p> Not bad at all. Playing with one of these champions is still a good choice.</p>
+
+          <div className="wrapped">
+          {godChamps.map(champ =>
+            <Media>
+              <img
+                width={64}
+                height={64}
+                className="mr-1 mb-1"
+                src={tiles[champ]}
+                alt={champ}
+              />
+            </Media>
+          )
+          }
+          </div>
+        </div>
+      </div>
     )
   }
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import CustomButton from './components/CustomButton'
 import CustomNavbar from './components/CustomNavbar'
 import Information from './components/Information'
 import MainPatchInfo from './components/MainPatchInfo'
@@ -12,7 +11,7 @@ function App() {
     <CustomNavbar/>
       <header className="App-header">
       </header>
-      <MainPatchInfo/>
+      <MainPatchInfo patch='9.10'/>
 
     </div>
   );
