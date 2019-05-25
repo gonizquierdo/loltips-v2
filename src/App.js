@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CustomButton from './components/CustomButton'
+import CustomNavbar from './components/CustomNavbar'
+import Information from './components/Information'
+import MainPatchInfo from './components/MainPatchInfo'
+
 
 function App() {
   return (
     <div className="App">
+    <CustomNavbar/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <MainPatchInfo/>
+
     </div>
   );
 }
