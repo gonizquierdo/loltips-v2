@@ -18,14 +18,14 @@ export default class PatchNotes extends React.Component
         </div>
 
         <div>
-          <h4> Important buffs </h4>
+          <h4> Dangerous buffs </h4>
             <ul>
               <li> buff del culo </li>
               <li> buff del culo </li>
               <li> buff del culo </li>
               <li> buff del culo </li>
             </ul>
-          <h4> Important nerfs </h4>
+          <h4> Killer nerfs </h4>
             <ul>
               <li> buff del culo </li>
               <li> buff del culo </li>

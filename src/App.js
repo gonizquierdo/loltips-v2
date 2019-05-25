@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import CustomNavbar from './components/CustomNavbar'
-import Information from './components/Information'
 import MainPatchInfo from './components/MainPatchInfo'
 
 
