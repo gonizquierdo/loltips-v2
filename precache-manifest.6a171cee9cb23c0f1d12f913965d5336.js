@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/MasterYi.faee2a10.png"
   },
   {
-    "revision": "d433f7e7c2e82f32dfc9",
-    "url": "/loltips-v2/static/css/main.29bd3d30.chunk.css"
+    "revision": "edad00404ed510f85901",
+    "url": "/loltips-v2/static/css/main.d4e3bc80.chunk.css"
   },
   {
-    "revision": "00d4ac3e2fc3d3df0710",
-    "url": "/loltips-v2/static/js/1.00d4ac3e.chunk.js"
+    "revision": "56c3997b336b9f706114",
+    "url": "/loltips-v2/static/js/1.56c3997b.chunk.js"
   },
   {
     "revision": "e4eddad411d21c4aa5fb",
@@ -296,8 +296,8 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/Maokai.d8cee56d.png"
   },
   {
-    "revision": "d433f7e7c2e82f32dfc9",
-    "url": "/loltips-v2/static/js/main.d433f7e7.chunk.js"
+    "revision": "edad00404ed510f85901",
+    "url": "/loltips-v2/static/js/main.edad0040.chunk.js"
   },
   {
     "revision": "d346c5cbec6181e51d70ae1adc95479e",
@@ -592,7 +592,7 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/Zyra.3049bbc2.png"
   },
   {
-    "revision": "d1fdc3e9d8c44f425469b5a4dd5e1b3d",
+    "revision": "7fa6e6bb669d98bb41303fa9b465eefd",
     "url": "/loltips-v2/index.html"
   }
 ];
