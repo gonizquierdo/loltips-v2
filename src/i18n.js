@@ -1,7 +1,6 @@
 export const t = (key: string) => {
-  const locale = navigator.language || navigator.userLanguage
+  const locale = (navigator.language || navigator.userLanguage).split('-')[0]
   const messages = require(`./locales/${locale}/translation.json`)
-
   const message = messages[key]
   if (typeof message === 'undefined') {
     // eslint-disable-next-line no-console

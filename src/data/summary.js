@@ -1,4 +1,4 @@
-export const patches = {
+export const summary = {
   "9.10":
     {
       "tiers": {

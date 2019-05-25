@@ -1,4 +1,6 @@
-import { patches } from './data/summary.js'
+import { patches } from './data/patches.js'
+import { summary } from './data/summary.js'
+
 export function getChampionsTiles()
 {
   return {
@@ -152,20 +154,24 @@ export function getChampionsTiles()
 
 export function getChampionsTiers(patch)
 {
-  return patches[patch]["tiers"]
+  return summary[patch]["tiers"]
 }
 
 export function getBuffsList(patch)
 {
-  return patches[patch]["buffs"]
+  return summary[patch]["buffs"]
 }
 
 export function getNerfsList(patch)
 {
-  return patches[patch]["nerfs"]
+  return summary[patch]["nerfs"]
 }
 
 export function getUpdatesList(patch)
 {
-  return patches[patch]["updates"]
+  return summary[patch]["updates"]
+}
+
+export function getCurrentPatch(){
+  return Math.max(patches)
 }
