@@ -1,23 +1,19 @@
-self.__precacheManifest = (self.__precacheManifest || []).concat([
+self.__precacheManifest = [
   {
-    "revision": "9cd8fa431c11940e734c1b55fda3dfe0",
-    "url": "/loltips-v2/index.html"
+    "revision": "faee2a10105d81fb4207725e2cbe0109",
+    "url": "/loltips-v2/static/media/MasterYi.faee2a10.png"
   },
   {
-    "revision": "814840f1490c93a4f6fb",
-    "url": "/loltips-v2/static/css/main.dd36c71b.chunk.css"
+    "revision": "a5b0d420ab550c97e63a",
+    "url": "/loltips-v2/static/css/main.29bd3d30.chunk.css"
   },
   {
-    "revision": "edd452d90155da278809",
-    "url": "/loltips-v2/static/js/2.3ea1fe19.chunk.js"
+    "revision": "00d4ac3e2fc3d3df0710",
+    "url": "/loltips-v2/static/js/1.00d4ac3e.chunk.js"
   },
   {
-    "revision": "814840f1490c93a4f6fb",
-    "url": "/loltips-v2/static/js/main.f0e05843.chunk.js"
-  },
-  {
-    "revision": "4506a93cbbf48ea9a746",
-    "url": "/loltips-v2/static/js/runtime~main.f2648e6f.js"
+    "revision": "e4eddad411d21c4aa5fb",
+    "url": "/loltips-v2/static/js/runtime~main.e4eddad4.js"
   },
   {
     "revision": "df4f3e50d7a305a78b48e6e012679ac7",
@@ -104,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loltips-v2/static/media/Diana.cf56348c.png"
   },
   {
-    "revision": "932f656fde7956ad2d236bb5758057ae",
-    "url": "/loltips-v2/static/media/DrMundo.932f656f.png"
-  },
-  {
     "revision": "1c65e755a2c206335e17c49f9809d0b9",
     "url": "/loltips-v2/static/media/Draven.1c65e755.png"
+  },
+  {
+    "revision": "932f656fde7956ad2d236bb5758057ae",
+    "url": "/loltips-v2/static/media/DrMundo.932f656f.png"
   },
   {
     "revision": "e70923738d7d0d6222b074ecba6bf848",
@@ -300,8 +296,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loltips-v2/static/media/Maokai.d8cee56d.png"
   },
   {
-    "revision": "faee2a10105d81fb4207725e2cbe0109",
-    "url": "/loltips-v2/static/media/MasterYi.faee2a10.png"
+    "revision": "a5b0d420ab550c97e63a",
+    "url": "/loltips-v2/static/js/main.a5b0d420.chunk.js"
   },
   {
     "revision": "d346c5cbec6181e51d70ae1adc95479e",
@@ -594,5 +590,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3049bbc2c6d6156feb02e615ddd33105",
     "url": "/loltips-v2/static/media/Zyra.3049bbc2.png"
+  },
+  {
+    "revision": "7316247739b3d23acad632b36fa3feda",
+    "url": "/loltips-v2/index.html"
   }
-]);
+];
