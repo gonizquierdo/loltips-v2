@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Col, Row} from 'react-bootstrap'
 
-export default class Information extends React.Component{
+export default class Subscribe extends React.Component{
 
   render() {
     return (
