@@ -24,8 +24,7 @@ export default class MainPatchInfo extends React.Component
             </div>
           </div>
         </div>
-        <div className="bait">
-        </div>
+
       </div>
     )
   }

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Media } from 'react-bootstrap'
 import { getChampionsTiles, getTopChampions, getRoleIcons } from '../utils.js'
 
 export default class TierList extends React.Component
@@ -23,7 +22,7 @@ export default class TierList extends React.Component
 
         <h2> Champions Tier list </h2>
         <p> These are the best champions in patch {patch}. Although it is not a certain win, playing champions that are strong in the current meta can give you an advantage over your opponent.</p>
-        <div className="row">
+        <div className="row tier-images">
           {
             roles.map(role =>
               <div className="col">

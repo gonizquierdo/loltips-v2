@@ -1,8 +1,9 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import CustomNavbar from './components/CustomNavbar'
 import MainPatchInfo from './components/MainPatchInfo'
+import BaitSection from './components/BaitSection'
 import AboutUs from './components/AboutUs'
 import {getCurrentPatch} from './utils.js'
 
@@ -14,8 +15,21 @@ function App() {
         <CustomNavbar/>
         <header className="App-header">
         </header>
-        <Route exact path="/" component={() => <MainPatchInfo patch={currentPatch}/>} />
-        <Route path="/loltips-v2" component={() => <MainPatchInfo patch={currentPatch}/>} />
+        <Route exact path="/" render={props =>
+          <div>
+            <MainPatchInfo patch={currentPatch}/>
+            <BaitSection/>
+          </div>
+        }
+        />
+        <Route path="/loltips-v2" render={props =>
+          <div>
+            <MainPatchInfo patch={currentPatch}/>
+            <BaitSection/>
+          </div>
+        }
+        />
+
         <Route path="/about_us" component={() => <AboutUs />}/>
         <Route path="/subscribe" component={() => <AboutUs />}/>
       </div>
