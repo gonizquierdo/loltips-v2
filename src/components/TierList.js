@@ -24,8 +24,8 @@ export default class TierList extends React.Component
         <p> These are the best champions in patch {patch}. Although it is not a certain win, playing champions that are strong in the current meta can give you an advantage over your opponent.</p>
         <div className="row tier-images">
           {
-            roles.map(role =>
-              <div className="col">
+            roles.map((role, index) =>
+              <div key={index} className="col">
                 <img
                   width={64}
                   height={64}
@@ -35,9 +35,10 @@ export default class TierList extends React.Component
                 />
                 <div>
                 {
-                  top_champions[role].map(champ =>
+                  top_champions[role].map((champ, index) =>
 
                   <img
+                    key={index}
                     width={64}
                     height={64}
                     className="mr-1 mb-1"

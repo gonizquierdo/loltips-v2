@@ -22,24 +22,24 @@ export default class PatchNotes extends React.Component
           <h4> Dangerous buffs </h4>
           <ul>
           {
-            getBuffsList(patch).map(buff =>
-              <li>{buff}</li>
+            getBuffsList(patch).map((buff, index) =>
+              <li key={index}>{buff}</li>
             )
           }
           </ul>
           <h4> Killer nerfs </h4>
             <ul>
             {
-              getNerfsList(patch).map(nerf =>
-                <li>{nerf}</li>
+              getNerfsList(patch).map((nerf, index) =>
+                <li key={index}>{nerf}</li>
               )
             }
             </ul>
           <h4> Updates and changes </h4>
             <ul>
             {
-              getUpdatesList(patch).map(update =>
-                <li>{update}</li>
+              getUpdatesList(patch).map((update, index) =>
+                <li key={index}>{update}</li>
               )
             }
             </ul>
