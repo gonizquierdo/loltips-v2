@@ -5,6 +5,7 @@ import CustomNavbar from './components/CustomNavbar'
 import MainPatchInfo from './components/MainPatchInfo'
 import BaitSection from './components/BaitSection'
 import AboutUs from './components/AboutUs'
+import Subscribe from './components/Subscribe'
 import {getCurrentPatch} from './utils.js'
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
         />
 
         <Route path="/about_us" component={() => <AboutUs />}/>
-        <Route path="/subscribe" component={() => <AboutUs />}/>
+        <Route path="/subscribe" component={() => <Subscribe />}/>
       </div>
     </Router>
   );
