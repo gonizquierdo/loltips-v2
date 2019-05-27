@@ -19,7 +19,7 @@ export default class CustomNavbar extends React.Component {
            <li className="nav-item active">
              <Link to="/" className="nav-link" href="#">{t('navbar.home')}</Link>
            </li>
-           <li className="nav-item">
+           <li className="nav-item active">
              <Link to="/about_us" className="nav-link" href="#">{t("navbar.about_us")}</Link>
            </li>
 
