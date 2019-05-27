@@ -29,6 +29,11 @@
 
 h4 {
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 .main-patch .current-patch-title {
@@ -56,6 +61,7 @@ h4 {
   text-align: left;
   text-transform: uppercase;
   font-weight: 200;
+  font-family: 'Roboto', sans-serif
 }
 
 .bait {

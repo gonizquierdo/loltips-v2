@@ -12,7 +12,7 @@ export default class PatchNotes extends React.Component
     return(
       <div className='container info-panel'>
         <div>
-          <h2> Patch highlights </h2>
+          <h2 className="border-bottom border-dark"> Patch highlights </h2>
         </div>
         <div>
           <p> Even if this is not everything that has happened in patch {patch}, it summarizes the most important things you have to consider to take advantage of the current changes. </p>
