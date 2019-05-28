@@ -29,7 +29,8 @@
 
 h4 {
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 h1 {
