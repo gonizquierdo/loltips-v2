@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import { t } from '../i18n';
-
 export default class CustomNavbar extends React.Component {
 
   render() {
