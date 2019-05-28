@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "faee2a10105d81fb4207725e2cbe0109",
-    "url": "/loltips-v2/static/media/MasterYi.faee2a10.png"
+    "revision": "1f47f2d0efb66131aae709511db0c068",
+    "url": "/loltips-v2/static/media/Mordekaiser.1f47f2d0.png"
   },
   {
-    "revision": "35054e05560111b8b230",
-    "url": "/loltips-v2/static/css/main.648e2b29.chunk.css"
+    "revision": "d4002d0be6be5bc6e854",
+    "url": "/loltips-v2/static/css/main.683348d9.chunk.css"
   },
   {
-    "revision": "c8fe7e05b3c209dbeca9",
-    "url": "/loltips-v2/static/js/1.c8fe7e05.chunk.js"
+    "revision": "634b1687cc5eafb17530",
+    "url": "/loltips-v2/static/js/1.634b1687.chunk.js"
   },
   {
     "revision": "e4eddad411d21c4aa5fb",
@@ -300,8 +300,8 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/Maokai.d8cee56d.png"
   },
   {
-    "revision": "35054e05560111b8b230",
-    "url": "/loltips-v2/static/js/main.35054e05.chunk.js"
+    "revision": "faee2a10105d81fb4207725e2cbe0109",
+    "url": "/loltips-v2/static/media/MasterYi.faee2a10.png"
   },
   {
     "revision": "d346c5cbec6181e51d70ae1adc95479e",
@@ -312,8 +312,8 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/MonkeyKing.84294726.png"
   },
   {
-    "revision": "1f47f2d0efb66131aae709511db0c068",
-    "url": "/loltips-v2/static/media/Mordekaiser.1f47f2d0.png"
+    "revision": "d4002d0be6be5bc6e854",
+    "url": "/loltips-v2/static/js/main.d4002d0b.chunk.js"
   },
   {
     "revision": "7fa5c5fd7fb48e626d2202b7838b911f",
@@ -596,7 +596,31 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/Zyra.3049bbc2.png"
   },
   {
-    "revision": "b2f3d2a9f8bce6e9e91d68cf176cc2fe",
+    "revision": "d18a3cad1d61706463ed450bc6dd6591",
+    "url": "/loltips-v2/static/media/iron.d18a3cad.png"
+  },
+  {
+    "revision": "c7e85443e977b2d9f920e803154b4645",
+    "url": "/loltips-v2/static/media/bronze.c7e85443.png"
+  },
+  {
+    "revision": "813d650ad52d4d4a0e22b69c6befcf39",
+    "url": "/loltips-v2/static/media/silver.813d650a.png"
+  },
+  {
+    "revision": "628a8076fe86a1d5ee851971c38e239f",
+    "url": "/loltips-v2/static/media/gold.628a8076.png"
+  },
+  {
+    "revision": "fbf7ad433e682608531e484f89b05819",
+    "url": "/loltips-v2/static/media/platinum.fbf7ad43.png"
+  },
+  {
+    "revision": "2827c5bfa9fbb113202b6f34cc62aca6",
+    "url": "/loltips-v2/static/media/diamond.2827c5bf.png"
+  },
+  {
+    "revision": "501f300db17cf884feb3cea23ab5efc1",
     "url": "/loltips-v2/index.html"
   }
 ];
