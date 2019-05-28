@@ -4,52 +4,88 @@ export default class WaitlistForm extends React.Component{
 
   constructor(props) {
       super(props);
-      this.state = {value: ''};
+      this.state = {
+        email: 'Enter a valid email',
+        summoner_name: 'Enter your Summoner Name',
+        region_value: 'NA',
+        division_value: '1',
+        league_value: 'Gold'
+      };
 
-      this.handleChange = this.handleChange.bind(this);
+      this.handleRegionChange = this.handleRegionChange.bind(this);
+      this.handleEmailChange = this.handleEmailChange.bind(this);
+      this.handleSummonerNameChange = this.handleSummonerNameChange.bind(this);
+      this.handleDivisionChange = this.handleDivisionChange.bind(this);
+      this.handleLeagueChange = this.handleLeagueChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleChange(event) {
-      this.setState({value: event.target.value});
+    handleRegionChange(event){
+      this.setState({region_value: event.target.value})
     }
 
+    handleDivisionChange(event){
+      this.setState({division_value: event.target.value})
+    }
+
+    handleLeagueChange(event){
+      this.setState({league_value: event.target.value})
+    }
+
+    handleSummonerNameChange(event){
+      this.setState({summoner_name: event.target.value})
+    }
+
+    handleEmailChange(event){
+      this.setState({email: event.target.value})
+    }
+
+
     handleSubmit(event) {
-      alert('A name was submitted: ' + this.state.value);
       event.preventDefault();
     }
 
     render() {
+      const leagues = ['Iron', 'Bronze', 'Silver', 'Gold', 'Platinum', 'Diamond+']
+      const regions = ['BR', 'EUNE', 'EUW', 'LAN', 'LAS', 'NA', 'OCE', 'RU', 'TR', 'JP', 'SEA', 'KR', 'CN']
       return (
         <div className="container">
           <form className="col-lg-4 offset-lg-4" onSubmit={this.handleSubmit}>
             <div className="row">
               <div className="form-group w-100">
-                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                <input required type="email" className="form-control" id="inputEmail1" onChange={this.handleEmailChange} placeholder={this.state.email}/>
               </div>
             </div>
             <div className="row">
               <div className="form-group w-100">
-                <input type="summonerName" className="form-control" id="inputSummonerName" aria-describedby="emailHelp" placeholder="Enter Summoner Name"/>
+                <input required type="summonerName" className="form-control" id="inputSummonerName" onChange={this.handleSummonerNameChange} placeholder={this.state.summoner_name}/>
               </div>
             </div>
             <div className="row">
-              <select className="form-control col-lg-9" id="sel1">
-                <option>IRON</option>
-                <option>BRONCE</option>
-                <option>SILVER</option>
-                <option>GOLD</option>
-                <option>PLATINUM</option>
-                <option>DIAMOND+</option>
-              </select>
-              <select className="form-control col-lg-3 mb-3" id="sel2">
-                <option>I</option>
-                <option>II</option>
-                <option>III</option>
-                <option>IV</option>
+              <select value={this.state.region_value} onChange={this.handleRegionChange} className="form-group form-control" id="sel1">
+              {
+                regions.map((region, index) =>
+                 <option value={region} key={index}>{region}</option>
+                )
+              }
               </select>
             </div>
-            <button type="submit" class="btn btn-lg btn-dark">Submit</button>
+            <div className="row">
+              <select value={this.state.league_value} onChange={this.handleLeagueChange} className="form-control col-lg-9" id="sel2">
+              {
+                leagues.map((league, index) =>
+                 <option value={league} key={index}>{league}</option>
+                )
+              }
+              </select>
+              <select value={this.state.division_value} onChange={this.handleDivisionChange} className="form-control col-lg-3 mb-3" id="sel3">
+                <option value='1'>I</option>
+                <option value='2'>II</option>
+                <option value='3'>III</option>
+                <option value='4'>IV</option>
+              </select>
+            </div>
+            <button type="submit" className="btn btn-lg btn-dark">Submit</button>
 
           </form>
         </div>

@@ -33,16 +33,6 @@ h4 {
   font-weight: bold;
 }
 
-h1 {
-  text-transform: uppercase;
-}
-
-.main-patch .current-patch-title {
-  padding: 1%;
-  text-transform: uppercase;
-}
-.main-patch .current-patch-content {
-}
 .wrapped {
   display: flex;
   flex-wrap: wrap;
@@ -68,6 +58,9 @@ h1 {
 .bait {
   height: 200px;
   background-color: white;
+}
+.image-md {
+  height: 15rem;
 }
 @keyframes App-logo-spin {
   from {

@@ -185,3 +185,15 @@ export function getRoleIcons()
     'sup': require('./assets/roles/Support_icon.png')
   }
 }
+
+export function getLeagueIcons()
+{
+  return {
+    'iron': require('./assets/leagues/iron.png'),
+    'bronze': require('./assets/leagues/bronze.png'),
+    'silver': require('./assets/leagues/silver.png'),
+    'gold': require('./assets/leagues/gold.png'),
+    'platinum': require('./assets/leagues/platinum.png'),
+    'diamond': require('./assets/leagues/diamond.png')
+  }
+}
