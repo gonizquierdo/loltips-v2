@@ -85,7 +85,7 @@ export default class WaitlistForm extends React.Component{
                 <option value='4'>IV</option>
               </select>
             </div>
-            <button type="submit" className="btn btn-lg btn-dark">Submit</button>
+            <button type="submit" className="btn btn-lg btn-scattler">Submit</button>
 
           </form>
         </div>

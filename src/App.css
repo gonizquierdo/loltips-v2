@@ -4,7 +4,6 @@
   min-height: 100vh;
   font-size: calc(10px + 0.7vmin);
   color: black;
-
 }
 
 .App-header {
@@ -20,6 +19,7 @@
   margin-bottom: 1%;
   background: #e9ecef;
 }
+
 .information {
   padding-bottom: 3%;
   padding-top: 1%;
@@ -42,12 +42,15 @@ h4 {
   width: 60px;
   height: 60px;
 }
+
 .info-panel {
   text-align: justify;
 }
+
 .info-panel .tier-images {
   text-align: center;
 }
+
 .info-panel h2 {
   text-align: left;
   text-transform: uppercase;
@@ -59,9 +62,22 @@ h4 {
   height: 200px;
   background-color: white;
 }
+
 .image-md {
   height: 15rem;
 }
+
+.btn-scattler {
+  background-color: #009060;
+  border-color: #009060;
+  border-radius: 0;
+  color: white;
+}
+
+.btn-scattler:hover {
+    color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
