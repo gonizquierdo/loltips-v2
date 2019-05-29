@@ -12,9 +12,9 @@ export default class MainPatchInfo extends React.Component
   render() {
     const { patch } = this.props
     return (
-      <div className='main-patch container mt-2'>
-        <div className="tab bg-dark-transparent p-1">
-          <p className="text-uppercase m-0">Current patch: <b className="text-amumu">{patch}</b></p>
+      <div className='main-patch container pt-4'>
+        <div className="tab bg-dark-transparent p-1 pl-2">
+          <p className="text-uppercase m-0 pl-4 pr-4">Current patch: <b className="text-amumu">{patch}</b></p>
         </div>
         <div className="shadow mt-0 mb-3 p-3 bg-dark-transparent text-light rounded-right rounded-bottom">
           <div className="row current-patch-content">
