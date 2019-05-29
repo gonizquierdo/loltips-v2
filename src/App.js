@@ -5,14 +5,15 @@ import CustomNavbar from './components/CustomNavbar'
 import MainPatchInfo from './components/MainPatchInfo'
 import BaitSection from './components/BaitSection'
 import AboutUs from './components/AboutUs'
-import Subscribe from './components/Subscribe'
+import PremiumContent from './components/PremiumContent'
+import SubscriptionsClosed from './components/SubscriptionsClosed'
 import {getCurrentPatch} from './utils.js'
 
 function App() {
   const currentPatch = getCurrentPatch();
   return (
     <Router>
-      <div className="App">
+      <div className="App bg-dark text-light">
         <CustomNavbar/>
         <header className="App-header">
         </header>
@@ -32,7 +33,8 @@ function App() {
         />
 
         <Route path="/about_us" component={() => <AboutUs />}/>
-        <Route path="/subscribe" component={() => <Subscribe />}/>
+        <Route path="/premium-content" component={() => <PremiumContent />}/>
+        <Route path="/subscriptions-closed" component={() => <SubscriptionsClosed />}/>
       </div>
     </Router>
   );

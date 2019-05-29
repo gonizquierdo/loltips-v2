@@ -12,10 +12,12 @@ export default class MainPatchInfo extends React.Component
   render() {
     const { patch } = this.props
     return (
-      <div className='main-patch'>
-        <h1 className="text-uppercase p-2 display-4">Patch <b>{patch}</b></h1>
-        <div className="container">
-          <div className="row current-patch-content shadow p-3 mb-3 bg-white rounded">
+      <div className='main-patch container mt-2'>
+        <div className="tab bg-dark-transparent p-1">
+          <p className="text-uppercase m-0">Current patch: <b className="text-amumu">{patch}</b></p>
+        </div>
+        <div className="shadow mt-0 mb-3 p-3 bg-dark-transparent text-light rounded">
+          <div className="row current-patch-content">
             <div className="col">
               <TierList patch={patch} />
             </div>

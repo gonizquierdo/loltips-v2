@@ -62,30 +62,28 @@ export default class WaitlistForm extends React.Component{
               </div>
             </div>
             <div className="row">
-              <select value={this.state.region_value} onChange={this.handleRegionChange} className="form-group form-control" id="sel1">
+              <select placeholder='Region' value={this.state.region_value} onChange={this.handleRegionChange} className="form-group form-control col-lg-4" id="sel1">
               {
                 regions.map((region, index) =>
                  <option value={region} key={index}>{region}</option>
                 )
               }
               </select>
-            </div>
-            <div className="row">
-              <select value={this.state.league_value} onChange={this.handleLeagueChange} className="form-control col-lg-9" id="sel2">
+              <select value={this.state.league_value} onChange={this.handleLeagueChange} className="form-control col-lg-4" id="sel2">
               {
                 leagues.map((league, index) =>
                  <option value={league} key={index}>{league}</option>
                 )
               }
               </select>
-              <select value={this.state.division_value} onChange={this.handleDivisionChange} className="form-control col-lg-3 mb-3" id="sel3">
+              <select value={this.state.division_value} onChange={this.handleDivisionChange} className="form-control col-lg-4 mb-3" id="sel3">
                 <option value='1'>I</option>
                 <option value='2'>II</option>
                 <option value='3'>III</option>
                 <option value='4'>IV</option>
               </select>
             </div>
-            <button type="submit" className="btn btn-lg btn-scattler">Submit</button>
+            <button type="submit" className="btn btn-lg btn-scattler text-uppercase">Submit</button>
 
           </form>
         </div>

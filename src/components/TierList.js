@@ -20,7 +20,7 @@ export default class TierList extends React.Component
     return (
       <div className='container info-panel'>
 
-        <h2 className="border-bottom border-dark"> Champions Tier list </h2>
+        <h2 className="border-bottom border-light"> Champions Tier list </h2>
         <p> These are the best champions in patch {patch}. Although it is not a certain win, playing champions that are strong in the current meta can give you an advantage over your opponent.</p>
         <div className="row tier-images">
           {

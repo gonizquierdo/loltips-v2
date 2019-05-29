@@ -1,16 +1,20 @@
 .App {
   text-align: center;
-  background-color: whitesmoke;
   min-height: 100vh;
-  font-size: calc(10px + 0.7vmin);
   color: black;
+  background-image: url('./assets/resources/bg-huge-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .App-header {
   background-color: #282c34;
   color: white;
 }
-
+.logo {
+  max-height: 3rem!important;
+}
 .App-link {
   color: #61dafb;
 }
@@ -76,6 +80,22 @@ h4 {
 
 .btn-scattler:hover {
     color: white;
+}
+
+.text-amumu {
+  color: #009060;
+}
+
+.bg-darker {
+  background-color: #2a2f33;
+}
+
+.bg-dark-transparent {
+  background-color: #2a2f33c4;
+}
+
+.tab {
+  width: fit-content;
 }
 
 @keyframes App-logo-spin {
