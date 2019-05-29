@@ -9,7 +9,7 @@ export default class SubscriptionsClosed extends React.Component{
     return (
       <div className="container text-center bg-dark-transparent p-3 mt-3">
         <h1 className="display-4"> We're <b>sorry</b>! </h1>
-        <img className="image-md" alt="Amumu is very sorry!" src={crying_amumu}/>
+        <img className="image-sorry rounded-circle bg-white" alt="Amumu is very sorry!" src={crying_amumu}/>
         <p className="lead"> We have reached our <b>500</b> subscriptions limit for the alpha period. We will take new subscribers as soon as we can!</p>
 
         <div>
