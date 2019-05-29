@@ -1,5 +1,5 @@
 export const summary = {
-  "9.10":
+  "9.11":
     {
       "top_champions": {
         "top":["Aatrox", "Jax", "Nasus", "Urgot", "Yorick"],
