@@ -1,23 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "1f47f2d0efb66131aae709511db0c068",
-    "url": "/loltips-v2/static/media/Mordekaiser.1f47f2d0.png"
+    "revision": "842947265b0e075804b15ae06011afda",
+    "url": "/loltips-v2/static/media/MonkeyKing.84294726.png"
   },
   {
-    "revision": "2f6e6bb47137ed219a61",
-    "url": "/loltips-v2/static/css/main.42552686.chunk.css"
+    "revision": "12f12eec867582fca88a",
+    "url": "/loltips-v2/static/css/main.e2bbfc6e.chunk.css"
   },
   {
-    "revision": "634b1687cc5eafb17530",
-    "url": "/loltips-v2/static/js/1.634b1687.chunk.js"
+    "revision": "d1791bb8f5cf76c941ce",
+    "url": "/loltips-v2/static/js/1.d1791bb8.chunk.js"
   },
   {
     "revision": "e4eddad411d21c4aa5fb",
     "url": "/loltips-v2/static/js/runtime~main.e4eddad4.js"
   },
   {
+    "revision": "e7a44f34c78150f45d413af0c02faa73",
+    "url": "/loltips-v2/static/media/logo.e7a44f34.png"
+  },
+  {
     "revision": "ea50a514ed674237ac72995b54818bf1",
     "url": "/loltips-v2/static/media/crying_amumu.ea50a514.gif"
+  },
+  {
+    "revision": "e6a435f3c8346b25b14ab78de3d5a2d4",
+    "url": "/loltips-v2/static/media/bg-huge-3.e6a435f3.jpg"
   },
   {
     "revision": "df4f3e50d7a305a78b48e6e012679ac7",
@@ -308,12 +316,12 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/MissFortune.d346c5cb.png"
   },
   {
-    "revision": "842947265b0e075804b15ae06011afda",
-    "url": "/loltips-v2/static/media/MonkeyKing.84294726.png"
+    "revision": "12f12eec867582fca88a",
+    "url": "/loltips-v2/static/js/main.12f12eec.chunk.js"
   },
   {
-    "revision": "2f6e6bb47137ed219a61",
-    "url": "/loltips-v2/static/js/main.2f6e6bb4.chunk.js"
+    "revision": "1f47f2d0efb66131aae709511db0c068",
+    "url": "/loltips-v2/static/media/Mordekaiser.1f47f2d0.png"
   },
   {
     "revision": "7fa5c5fd7fb48e626d2202b7838b911f",
@@ -620,7 +628,7 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/diamond.2827c5bf.png"
   },
   {
-    "revision": "556f2c11003f3bc5d09e11662ee5b8c0",
+    "revision": "bf4f742c4c96ec4a8de280acb1aff658",
     "url": "/loltips-v2/index.html"
   }
 ];
