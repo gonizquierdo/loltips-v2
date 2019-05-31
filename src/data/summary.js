@@ -9,16 +9,18 @@ export const summary = {
         "sup": ["Thresh", "Nautilus", "Pyke", "Morgana", "Nami"]
       },
       "buffs": [
-        "Yuumi fixes",
         "Warwick Q healing increased"
       ],
       "nerfs": [
-        "Akali passive damage heavily nerfed",
-        "Galio W scaling damage nerfed"
+        "Akali passive damage heavily nerfed. Energy refund nerf",
+        "Galio W base damage nerfed, scaling buffed. E base damage nerf",
+        "Amumu passive damage nerfed",
+        "Jayce Q damage heavily nerfed"
       ],
       "updates": [
         "Zac R update (reverted to pre-patch 7.9)",
-        "Janna W damage lowered, cooldown lowered. E new passive: Each ability that slows or knocks back an enemy champion reduces E cooldown by 20%"
+        "Janna W damage lowered, cooldown lowered. E new passive: Each ability that slows or knocks back an enemy champion reduces E cooldown by 20%",
+        "Several Yuumi bugfixes"
       ],
     }
   }
