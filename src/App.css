@@ -91,7 +91,11 @@ h4 {
 }
 
 .bg-dark-transparent {
-  background-color: #2a2f33c4;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.border-amumu-3 {
+  border-bottom: 3px solid;
+  border-color: #009060;
 }
 
 .tab {

@@ -6,9 +6,9 @@ export default class CustomNavbar extends React.Component {
   render() {
 
     return (
-      <div className="bg-transparent text-right text-lg-left">
+      <div className="bg-light text-right text-lg-left">
         <Link to="/">
-          <img alt="Logo" src={logo} className="logo bg-white"/>
+          <img alt="Logo" src={logo} className="logo bg-light"/>
         </Link>
       </div>
 )
