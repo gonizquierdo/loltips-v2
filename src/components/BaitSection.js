@@ -17,7 +17,7 @@ export default class BaitSection extends React.Component{
               </div>
               <div className="col">
                 <h2 className="text-uppercase"> Our data sources </h2>
-                <p className="text-justify">At <b>LOLTIPS</b> we harvest data from a great number of public websites and Youtube channels. We keep up with Professional players and official information so we can bring the latest news to our feed. We add our knowledge and passion to this data to make it the most valuable to our users!</p>
+                <p className="text-justify">At <b>SNEAKYBARON</b> we harvest data from a great number of public websites and Youtube channels. We keep up with Professional players and official information so we can bring the latest news to our feed. We combine it with our knowledge and passion to make it the most valuable to our users!</p>
               </div>
             </div>
           </div>

@@ -13,7 +13,7 @@ function App() {
   const currentPatch = getCurrentPatch();
   return (
     <Router>
-      <div className="App bg-dark text-light">
+      <div className="App bg-dark text-light pb-4">
         <CustomNavbar/>
         <header className="App-header">
         </header>

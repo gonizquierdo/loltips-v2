@@ -7,6 +7,7 @@ export default class WaitlistForm extends React.Component{
       this.state = {
         email: 'Enter a valid email',
         summoner_name: 'Enter your Summoner Name',
+        main_champions: 'Enter your favourite champion',
         region_value: 'NA',
         division_value: '1',
         league_value: 'Gold'
@@ -15,6 +16,7 @@ export default class WaitlistForm extends React.Component{
       this.handleRegionChange = this.handleRegionChange.bind(this);
       this.handleEmailChange = this.handleEmailChange.bind(this);
       this.handleSummonerNameChange = this.handleSummonerNameChange.bind(this);
+      this.handleMainChampionsChange = this.handleMainChampionsChange.bind(this);
       this.handleDivisionChange = this.handleDivisionChange.bind(this);
       this.handleLeagueChange = this.handleLeagueChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
@@ -34,6 +36,10 @@ export default class WaitlistForm extends React.Component{
 
     handleSummonerNameChange(event){
       this.setState({summoner_name: event.target.value})
+    }
+
+    handleMainChampionsChange(event){
+      this.setState({main_champions: event.target.value})
     }
 
     handleEmailChange(event){
@@ -59,6 +65,11 @@ export default class WaitlistForm extends React.Component{
             <div className="row">
               <div className="form-group w-100">
                 <input required type="summonerName" className="form-control" id="inputSummonerName" onChange={this.handleSummonerNameChange} placeholder={this.state.summoner_name}/>
+              </div>
+            </div>
+            <div className="row">
+              <div className="form-group w-100">
+                <input required type="mainChampions" className="form-control" data-role="tagsinput" id="inputMainChampions" onChange={this.handleMainChampionsChange} placeholder={this.state.main_champions}/>
               </div>
             </div>
             <div className="row">
