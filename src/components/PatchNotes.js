@@ -11,7 +11,7 @@ export default class PatchNotes extends React.Component
     const { patch } = this.props
     return(
       <div className='container info-panel'>
-        <h2 className="border-amumu-3"> Patch highlights </h2>
+        <h2 className="border-amumu-3"> Important highlights </h2>
         <div>
           <p> Even if this is not everything that has happened in patch {patch}, it summarizes the most important things you have to consider to take advantage of the current changes. </p>
         </div>

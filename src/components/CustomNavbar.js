@@ -10,6 +10,9 @@ export default class CustomNavbar extends React.Component {
         <Link to="/">
           <img alt="Logo" src={logo} className="logo bg-light"/>
         </Link>
+        <Link className="text-uppercase btn btn-scattler float-right m-3" to="/subscriptions-closed">
+          Subscribe
+        </Link>
       </div>
 )
  }
