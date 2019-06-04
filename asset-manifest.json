@@ -1,14 +1,13 @@
 {
   "main.css": "/loltips-v2/static/css/main.b2132431.chunk.css",
-  "main.js": "/loltips-v2/static/js/main.314f415a.chunk.js",
-  "main.js.map": "/loltips-v2/static/js/main.314f415a.chunk.js.map",
-  "static/js/1.8a6c1bef.chunk.js": "/loltips-v2/static/js/1.8a6c1bef.chunk.js",
-  "static/js/1.8a6c1bef.chunk.js.map": "/loltips-v2/static/js/1.8a6c1bef.chunk.js.map",
+  "main.js": "/loltips-v2/static/js/main.2f04a1a5.chunk.js",
+  "main.js.map": "/loltips-v2/static/js/main.2f04a1a5.chunk.js.map",
+  "static/js/1.68128e14.chunk.js": "/loltips-v2/static/js/1.68128e14.chunk.js",
+  "static/js/1.68128e14.chunk.js.map": "/loltips-v2/static/js/1.68128e14.chunk.js.map",
   "runtime~main.js": "/loltips-v2/static/js/runtime~main.e4eddad4.js",
   "runtime~main.js.map": "/loltips-v2/static/js/runtime~main.e4eddad4.js.map",
   "static/media/Nidalee.png": "/loltips-v2/static/media/Nidalee.335f7864.png",
   "static/media/crying_amumu_2.png": "/loltips-v2/static/media/crying_amumu_2.bb45a9c5.png",
-  "static/media/logo.png": "/loltips-v2/static/media/logo.e7a44f34.png",
   "static/media/Aatrox.png": "/loltips-v2/static/media/Aatrox.df4f3e50.png",
   "static/media/Ahri.png": "/loltips-v2/static/media/Ahri.4979c179.png",
   "static/media/Akali.png": "/loltips-v2/static/media/Akali.25417151.png",
@@ -161,6 +160,6 @@
   "static/media/diamond.png": "/loltips-v2/static/media/diamond.2827c5bf.png",
   "static/css/main.b2132431.chunk.css.map": "/loltips-v2/static/css/main.b2132431.chunk.css.map",
   "index.html": "/loltips-v2/index.html",
-  "precache-manifest.ad49d39a4e4dc38aeb21305d8d4a1f22.js": "/loltips-v2/precache-manifest.ad49d39a4e4dc38aeb21305d8d4a1f22.js",
+  "precache-manifest.6b6aad3ffdb037a1b492941c717ff641.js": "/loltips-v2/precache-manifest.6b6aad3ffdb037a1b492941c717ff641.js",
   "service-worker.js": "/loltips-v2/service-worker.js"
 }
