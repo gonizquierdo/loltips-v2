@@ -4,20 +4,16 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/MonkeyKing.84294726.png"
   },
   {
-    "revision": "7bbdbfd42782a1fca0f9",
-    "url": "/loltips-v2/static/css/main.bd4a48be.chunk.css"
+    "revision": "314f415a96604ebf27cb",
+    "url": "/loltips-v2/static/css/main.b2132431.chunk.css"
   },
   {
-    "revision": "d1791bb8f5cf76c941ce",
-    "url": "/loltips-v2/static/js/1.d1791bb8.chunk.js"
+    "revision": "8a6c1bef591e79933e8d",
+    "url": "/loltips-v2/static/js/1.8a6c1bef.chunk.js"
   },
   {
     "revision": "e4eddad411d21c4aa5fb",
     "url": "/loltips-v2/static/js/runtime~main.e4eddad4.js"
-  },
-  {
-    "revision": "e7a44f34c78150f45d413af0c02faa73",
-    "url": "/loltips-v2/static/media/logo.e7a44f34.png"
   },
   {
     "revision": "bb45a9c551c044468074845f3892e675",
@@ -26,6 +22,10 @@ self.__precacheManifest = [
   {
     "revision": "e6a435f3c8346b25b14ab78de3d5a2d4",
     "url": "/loltips-v2/static/media/bg-huge-3.e6a435f3.jpg"
+  },
+  {
+    "revision": "e7a44f34c78150f45d413af0c02faa73",
+    "url": "/loltips-v2/static/media/logo.e7a44f34.png"
   },
   {
     "revision": "df4f3e50d7a305a78b48e6e012679ac7",
@@ -316,8 +316,8 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/MissFortune.d346c5cb.png"
   },
   {
-    "revision": "7bbdbfd42782a1fca0f9",
-    "url": "/loltips-v2/static/js/main.7bbdbfd4.chunk.js"
+    "revision": "314f415a96604ebf27cb",
+    "url": "/loltips-v2/static/js/main.314f415a.chunk.js"
   },
   {
     "revision": "1f47f2d0efb66131aae709511db0c068",
@@ -628,7 +628,7 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/diamond.2827c5bf.png"
   },
   {
-    "revision": "257d02ab5670f8e86dc38da03e98ad21",
+    "revision": "6f0ecf6157e710d013a316b164e38e58",
     "url": "/loltips-v2/index.html"
   }
 ];
