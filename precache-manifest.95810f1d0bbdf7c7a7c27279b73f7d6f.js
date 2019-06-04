@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/MonkeyKing.84294726.png"
   },
   {
-    "revision": "0ab8eea53549a2f251c0",
-    "url": "/loltips-v2/static/css/main.5ef224f7.chunk.css"
+    "revision": "7bbdbfd42782a1fca0f9",
+    "url": "/loltips-v2/static/css/main.bd4a48be.chunk.css"
   },
   {
     "revision": "d1791bb8f5cf76c941ce",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/logo.e7a44f34.png"
   },
   {
-    "revision": "ea50a514ed674237ac72995b54818bf1",
-    "url": "/loltips-v2/static/media/crying_amumu.ea50a514.gif"
+    "revision": "bb45a9c551c044468074845f3892e675",
+    "url": "/loltips-v2/static/media/crying_amumu_2.bb45a9c5.png"
   },
   {
     "revision": "e6a435f3c8346b25b14ab78de3d5a2d4",
@@ -316,8 +316,8 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/MissFortune.d346c5cb.png"
   },
   {
-    "revision": "0ab8eea53549a2f251c0",
-    "url": "/loltips-v2/static/js/main.0ab8eea5.chunk.js"
+    "revision": "7bbdbfd42782a1fca0f9",
+    "url": "/loltips-v2/static/js/main.7bbdbfd4.chunk.js"
   },
   {
     "revision": "1f47f2d0efb66131aae709511db0c068",
@@ -628,7 +628,7 @@ self.__precacheManifest = [
     "url": "/loltips-v2/static/media/diamond.2827c5bf.png"
   },
   {
-    "revision": "8b087bc6a6159a41f2692bf28c76901c",
+    "revision": "257d02ab5670f8e86dc38da03e98ad21",
     "url": "/loltips-v2/index.html"
   }
 ];
