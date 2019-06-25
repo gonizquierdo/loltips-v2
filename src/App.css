@@ -92,13 +92,18 @@ h4 {
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+.bg-light-transparent {
+  background-color: rgba(1, 1, 1, 0.7);
+}
+
 .border-amumu-3 {
   border-bottom: 3px solid;
   border-color: #009060;
 }
 
 .tab {
-  width: fit-content;
+  width: 25%;
 }
 
 .image-sorry {

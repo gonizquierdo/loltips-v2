@@ -1,5 +1,5 @@
 import React from 'react'
-
+import axios from 'axios'
 export default class WaitlistForm extends React.Component{
 
   constructor(props) {
@@ -49,6 +49,11 @@ export default class WaitlistForm extends React.Component{
 
     handleSubmit(event) {
       event.preventDefault();
+      const { email, summoner_name, main_champion, region_value, division_value, league_value } = this.state;
+      axios.post('http://localhost:8000/api/new-waitlist-summoner', { email, summoner_name, main_champion, region_value, division_value, league_value })
+        .then((result) => {
+          console.log(result)
+        });
     }
 
     render() {

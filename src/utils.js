@@ -1,9 +1,9 @@
 import { config } from './data/config.js'
 import { summary } from './data/summary.js'
 
-export function getTopChampions(patch)
+export function getTopChampionsForLeague(patch, league)
 {
-  return summary[patch]["top_champions"]
+  return summary[patch]["top_champions"][league]
 }
 
 export function getBuffsList(patch)

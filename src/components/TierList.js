@@ -1,26 +1,27 @@
 import React from 'react'
-import { getChampionsTiles, getTopChampions, getRoleIcons } from '../utils.js'
+import { getChampionsTiles, getTopChampionsForLeague, getRoleIcons } from '../utils.js'
 
 export default class TierList extends React.Component
 {
   props: {
-    patch: 'string'
+    patch: 'string',
+    league: 'string'
   }
 
 
   render() {
 
-    const { patch } = this.props
+    const { patch, league } = this.props
     const tiles = getChampionsTiles()
     const roles = ['top', 'jg', 'mid', 'adc', 'sup']
     const role_icons = getRoleIcons()
 
-    const top_champions = getTopChampions(patch)
+    const top_champions = getTopChampionsForLeague(patch, league)
 
     return (
       <div className='container info-panel'>
 
-        <h2 className="border-amumu-3"> Top champion picks </h2>
+        <h2 className="border-amumu-3"> Top champion picks</h2>
         <p> These are the best champions in patch {patch}. Although it is not a certain win, playing champions that are strong in the current meta can give you an advantage over your opponent.</p>
         <div className="row tier-images">
           {
