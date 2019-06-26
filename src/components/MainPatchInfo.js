@@ -30,10 +30,10 @@ export default class MainPatchInfo extends React.Component
     const leagues = ['iron', 'bronze', 'silver', 'gold', 'platinum', 'diamond']
     return (
       <div className='main-patch container pt-3'>
-        <div className="tab bg-dark-transparent p-1 pl-2">
+        <div className="tab bg-dark-transparent p-1 pl-4">
           <div className="row">
-            <p className="text-uppercase m-0 pl-4 pr-4">Current patch: <b className="text-amumu">{patch} </b></p>
-            <div className="btn-group dropdown">
+            <p className="text-uppercase m-0 pl-4 pr-4 col col-8">Current patch: <b className="text-amumu">{patch} </b></p>
+            <div className="btn-group dropdown col col-2">
               <button className="btn btn-outline-secondary dropdown-toggle bg-light p-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
                 src={league_icons[league_value]}
                 width={30}

@@ -103,7 +103,7 @@ h4 {
 }
 
 .tab {
-  width: 25%;
+  width: fit-content;
 }
 
 .image-sorry {
