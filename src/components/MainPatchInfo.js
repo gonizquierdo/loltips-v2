@@ -33,22 +33,24 @@ export default class MainPatchInfo extends React.Component
         <div className="tab bg-dark-transparent p-1 pl-2">
           <div className="row">
             <p className="text-uppercase m-0 pl-4 pr-4">Current patch: <b className="text-amumu">{patch} </b></p>
-            <div class="input-group-prepend">
-              <button class="btn btn-outline-secondary dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+            <div className="btn-group dropdown">
+              <button className="btn btn-outline-secondary dropdown-toggle bg-light p-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
                 src={league_icons[league_value]}
                 width={30}
-                height={30}/>
+                height={30}
+                alt={league_value}/>
               </button>
-              <div class="dropdown-menu">
+              <div className="dropdown-menu">
                 {
                   leagues.map((league, index) =>
-                    <a class="dropdown-item" href="#" onClick={() => this.handleLeagueChange(league)}>
+                    <span key={index} className="dropdown-item" onClick={() => this.handleLeagueChange(league)} style={{cursor: 'pointer'}}>
                       <img
                         src={league_icons[league]}
                         width={30}
-                        height={30}/>
+                        height={30}
+                        alt={league}/>
                         <span className="text-uppercase"> {league} </span>
-                    </a>
+                    </span>
                   )
                 }
               </div>

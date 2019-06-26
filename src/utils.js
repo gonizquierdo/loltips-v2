@@ -1,24 +1,27 @@
 import { config } from './data/config.js'
-import { summary } from './data/summary.js'
 
 export function getTopChampionsForLeague(patch, league)
 {
-  return summary[patch]["top_champions"][league]
+  var data = require('./data/patches/'+ patch.split(".").join("") +'.json')
+  return data["top_champions"][league]
 }
 
 export function getBuffsList(patch)
 {
-  return summary[patch]["buffs"]
+  var data = require('./data/patches/'+ patch.split(".").join("") +'.json')
+  return data["buffs"]
 }
 
 export function getNerfsList(patch)
 {
-  return summary[patch]["nerfs"]
+  var data = require('./data/patches/'+ patch.split(".").join("") +'.json')
+  return data["nerfs"]
 }
 
 export function getUpdatesList(patch)
 {
-  return summary[patch]["updates"]
+  var data = require('./data/patches/'+ patch.split(".").join("") +'.json')
+  return data["updates"]
 }
 
 export function getCurrentPatch(){
