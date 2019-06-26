@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/loltips-v2/precache-manifest.ea50501082deedfd1e2869d54aef70da.js"
+  "/loltips-v2/precache-manifest.85e98fc3b205655635a6c27e8bed53ea.js"
 );
 
 workbox.clientsClaim();
