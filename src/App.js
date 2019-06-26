@@ -31,6 +31,14 @@ function App() {
         <Route path="/loltips-v2" render={props =>
           <div>
             <MainPatchInfo patch={currentPatch}/>
+            <div className="container">
+              <div className="bg-dark-transparent">
+                <h1 className="display-4 text-uppercase font-weight-light">
+                  Research . Knowledge . <b className="text-amumu">Insights</b>
+                </h1>
+                <p className="lead text-justify p-3"> League of Legends is constantly evolving, and keeping up with it can be very time consuming. Our goal is to make it easy for you to take advantage of every buff and nerf, new strategies, builds, and everything that has changed around your favourite champions and current league.</p>
+              </div>
+            </div>
           </div>
         }
         />
