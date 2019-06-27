@@ -1,6 +1,4 @@
 import React from 'react'
-import { t } from '../i18n.js'
-import { NavLink, withRouter } from 'react-router-dom';
 
 export default class Footer extends React.Component {
 

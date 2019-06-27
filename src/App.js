@@ -43,11 +43,10 @@ function App() {
         <Route path="/about-us" render={props =>
           <div className="container p-2">
             <div className="bg-dark-transparent">
-              <h1 className="display-4 text-uppercase">{t('app._titleabout_us')}</h1>
+              <h1 className="display-4 text-uppercase">{t('app.title_about_us')}</h1>
             </div>
           </div>
         }/>
-
         <Route path="/join-team" render={props =>
           <div className="container p-2">
             <div className="bg-dark-transparent">
