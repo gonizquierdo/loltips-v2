@@ -1,9 +1,11 @@
 import React from 'react'
 
+import { t } from '../i18n.js'
+import { getLeagueIcons } from '../utils.js'
+
 import TierList from './TierList'
 import PatchNotes from './PatchNotes'
 
-import { getLeagueIcons } from '../utils.js'
 
 export default class MainPatchInfo extends React.Component
 {
@@ -32,7 +34,7 @@ export default class MainPatchInfo extends React.Component
       <div className='main-patch container pt-3'>
         <div className="tab bg-dark-transparent p-1 pl-4">
           <div className="row">
-            <p className="text-uppercase m-0 pl-4 pr-4 col col-8">Current patch: <b className="text-amumu">{patch} </b></p>
+            <p className="text-uppercase m-0 pl-4 pr-4 col col-8">{t('main_patch.current_patch')}: <b className="text-amumu">{patch} </b></p>
             <div className="btn-group dropdown col col-2">
               <button className="btn btn-outline-secondary dropdown-toggle bg-light p-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
                 src={league_icons[league_value]}

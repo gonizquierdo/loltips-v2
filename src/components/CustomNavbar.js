@@ -1,11 +1,14 @@
 import React from 'react'
 import { t } from '../i18n.js'
+
 import { NavLink, withRouter } from 'react-router-dom';
+
 
 class CustomNavbar extends React.Component {
 
   getNavLinkClass = (path) => {
-          return this.props.location.pathname === path ? 'active' : '';}
+    return this.props.location.pathname === path ? 'active' : '';
+  }
 
   render() {
 
@@ -38,4 +41,3 @@ class CustomNavbar extends React.Component {
 
 CustomNavbar = withRouter(CustomNavbar);
 export default CustomNavbar;
-

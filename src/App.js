@@ -25,13 +25,13 @@ function App() {
             <div className="container">
               <div className="bg-dark-transparent pb-2">
                 <h1 className="display-4 text-uppercase font-weight-light">
-                  {t('main.title_reasearch_knowledge')} <b className="text-amumu">{t('main.title_insights')}</b>
+                  {t('app.title_reasearch_knowledge')} <b className="text-amumu">{t('app.title_insights')}</b>
                 </h1>
-                <p className="lead text-center p-3">{t('main.info_text')}</p>
+                <p className="lead text-center p-3">{t('app.info_text')}</p>
                 <h2 className="display-4 text-uppercase font-weight-light">
-                  {t('main.title_help_us')} <b className="text-amumu">{t('main.title_grow')}</b>
+                  {t('app.title_help_us')} <b className="text-amumu">{t('app.title_grow')}</b>
                 </h2>
-                <p className="lead text-center p-3">{t('main.donation_text')}</p>
+                <p className="lead text-center p-3">{t('app.donation_text')}</p>
                 <img alt="Btc qr code" className="pb-2" src={btc_qr}/>
                 <p className="text-monospace">38qjG4BS3Rqr66jbaZYm6rzjJGCDFuVrbz</p>
               </div>
@@ -43,7 +43,7 @@ function App() {
         <Route path="/about-us" render={props =>
           <div className="container p-2">
             <div className="bg-dark-transparent">
-              <h1 className="display-4 text-uppercase">{t('title.about_us')}</h1>
+              <h1 className="display-4 text-uppercase">{t('app._titleabout_us')}</h1>
             </div>
           </div>
         }/>
@@ -51,7 +51,7 @@ function App() {
         <Route path="/join-team" render={props =>
           <div className="container p-2">
             <div className="bg-dark-transparent">
-              <h1 className="display-4 text-uppercase">{t('title.join_team')}</h1>
+              <h1 className="display-4 text-uppercase">{t('app.title_join_team')}</h1>
             </div>
           </div>
         }/>

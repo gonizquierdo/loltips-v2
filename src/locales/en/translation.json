@@ -2,12 +2,13 @@
   "navbar.patch_highlights": "Patch highlights",
   "navbar.about_us": "About us",
   "navbar.join_team": "Join our team",
-  "main.info_text": "League of Legends is constantly evolving, and keeping up with it can be very time consuming. Our goal is to make it easy for you to take advantage of every buff and nerf, new strategies, builds, and everything that has changed around your favourite champions and current league.",
-  "main.donation_text": "We won't charge you for this information, but keep in mind we have awesome plans to develop all kinds of crazy stuff. Consider helping us to do it and get a special place in our hearts!",
-  "main.title_grow": "grow",
-  "main.title_help_us": "Help us",
-  "main.title_insights": "Insights",
-  "main.title_reasearch_knowledge": "Research . Knowledge . ",  
-  "title.about_us": "About us",
-  "title.join_team": "Join our team"
+  "app.info_text": "League of Legends is constantly evolving, and keeping up with it can be very time consuming. Our goal is to make it easy for you to take advantage of every buff and nerf, new strategies, builds, and everything that has changed around your favourite champions and current league.",
+  "app.donation_text": "We won't charge you for this information, but keep in mind we have awesome plans to develop all kinds of crazy stuff. Consider helping us to do it and get a special place in our hearts!",
+  "app.title_grow": "grow",
+  "app.title_help_us": "Help us",
+  "app.title_insights": "Insights",
+  "app.title_reasearch_knowledge": "Research . Knowledge . ",
+  "app.title_about_us": "About us",
+  "app.title_join_team": "Join our team",
+  "main_patch.current_patch": "Current patch"
 }
