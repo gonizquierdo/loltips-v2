@@ -1,26 +1,31 @@
 import { config } from './data/config.js'
+import { locale } from './i18n.js'
 
 export function getTopChampionsForLeague(patch, league)
 {
-  var data = require('./data/patches/'+ patch.split(".").join("") +'.json')
+  const lang = locale()
+  var data = require('./data/patches/'+ lang + '/'+ patch.split(".").join("") +'.json')
   return data["top_champions"][league]
 }
 
 export function getBuffsList(patch)
 {
-  var data = require('./data/patches/'+ patch.split(".").join("") +'.json')
+  const lang = locale()
+  var data = require('./data/patches/'+ lang + '/'+ patch.split(".").join("") +'.json')
   return data["buffs"]
 }
 
 export function getNerfsList(patch)
 {
-  var data = require('./data/patches/'+ patch.split(".").join("") +'.json')
+  const lang = locale()
+  var data = require('./data/patches/'+ lang + '/'+ patch.split(".").join("") +'.json')
   return data["nerfs"]
 }
 
 export function getUpdatesList(patch)
 {
-  var data = require('./data/patches/'+ patch.split(".").join("") +'.json')
+  const lang = locale()
+  var data = require('./data/patches/'+ lang + '/'+ patch.split(".").join("") +'.json')
   return data["updates"]
 }
 

@@ -1,0 +1,55 @@
+{
+  "top_champions": {
+    "iron":{
+      "top": ["Aatrox", "Jax", "Nasus", "Urgot", "Yorick"],
+      "jg": ["Hecarim", "Nunu", "Amumu","Jax","Rammus"],
+      "mid": ["Ahri", "Morgana", "Kassadin", "Aatrox", "Zed"],
+      "adc": ["Kaisa", "Jinx", "Sivir", "Draven", "Ezreal"],
+      "sup": ["Thresh", "Nautilus", "Pyke", "Morgana", "Nami"]
+    },
+    "bronze":{
+      "top": ["Aatrox", "Jax", "Nasus", "Urgot", "Yorick"],
+      "jg": ["Hecarim", "Nunu", "Amumu","Jax","Rammus"],
+      "mid": ["Ahri", "Morgana", "Kassadin", "Aatrox", "Zed"],
+      "adc": ["Kaisa", "Jinx", "Sivir", "Draven", "Ezreal"],
+      "sup": ["Thresh", "Nautilus", "Pyke", "Morgana", "Nami"]
+    },
+    "silver":{
+      "top":["Aatrox", "Jax", "Nasus", "Urgot", "Yorick"],
+      "jg":["Hecarim", "Nunu", "Amumu","Jax","Rammus"],
+      "mid":["Ahri", "Morgana", "Kassadin", "Aatrox", "Zed"],
+      "adc": ["Kaisa", "Sivir", "Draven", "Ezreal"],
+      "sup": ["Thresh", "Nautilus", "Pyke", "Morgana", "Nami"]
+    },
+    "gold":{
+      "top":["Jax", "Nasus", "Urgot", "Yorick"],
+      "jg":["Hecarim", "Nunu", "Amumu","Jax","Rammus"],
+      "mid":["Ahri", "Morgana", "Kassadin", "Aatrox", "Zed"],
+      "adc": ["Kaisa", "Jinx", "Sivir", "Draven", "Ezreal"],
+      "sup": ["Thresh", "Nautilus", "Pyke", "Morgana", "Nami"]
+    },
+    "platinum":{
+      "top":["Aatrox", "Jax", "Nasus", "Urgot", "Yorick"],
+      "jg":["Hecarim", "Nunu", "Amumu","Jax","Rammus"],
+      "mid":["Ahri", "Morgana", "Kassadin", "Aatrox", "Zed"],
+      "adc": ["Kaisa", "Jinx", "Sivir", "Draven", "Ezreal"],
+      "sup": ["Thresh", "Nautilus", "Pyke", "Morgana", "Nami"]
+    },
+    "diamond":{
+      "top":["Aatrox", "Jax", "Nasus", "Urgot", "Yorick"],
+      "jg":["Hecarim", "Nunu", "Amumu","Jax","Rammus"],
+      "mid":["Ahri", "Morgana", "Kassadin", "Aatrox", "Zed"],
+      "adc": ["Kaisa", "Jinx", "Sivir", "Draven", "Ezreal"],
+      "sup": ["Thresh", "Nautilus", "Pyke", "Morgana", "Nami"]
+    }
+  },
+  "buffs": ["Esta es una prueba en español."],
+  "nerfs": [
+    "Akali nerfeada pero no lo suficiente.",
+    "Galio es medio choto y lo usa el ruso nada mas.",
+    "Amumu es un tipazo."
+  ],
+  "updates": [
+    "Ulti de Zac nueva."
+  ]
+}

@@ -12,5 +12,14 @@
   "join_team.title": "Join our team",
   "join_team.text": "We are a growing team of players and we are always looking to meet new people interested in League of Legends.",
   "join_team.contact": "If you want to be a part of this project or contribute in your own way, get in touch with us at ",
-  "main_patch.current_patch": "Current patch"
+  "main_patch.current_patch": "Current patch",
+  "tier_list.top_champions_title": "Top champion picks",
+  "tier_list.top_champions_intro":  "These are the best champions in patch ",
+  "tier_list.top_champions_text": "Although it is not a certain win, playing champions that are strong in the current meta can give you an advantage over your opponent.",
+  "patch_notes.important_highlights": "Important highlights",
+  "patch_notes.summary": "Even if this is not everything that has happened in this patch, it summarizes the most important things you have to consider to take advantage of the current changes.",
+  "patch_notes.dangerous_buffs": "Danerous buffs",
+  "patch_notes.killer_nerfs": "Killer nerfs",
+  "patch_notes.updates": "Updates and changes"
+
 }
