@@ -1,5 +1,24 @@
 {
-  "navbar.home": "Inicio",
+  "navbar.patch_highlights": "Análisis del parche",
   "navbar.about_us": "Sobre nosotros",
-  "navbar.subscribe": "Suscribirse"
+  "navbar.join_team": "Unirse al equipo",
+  "app.info_text": "League of Legends evoluciona constantemente, y mantenerse al día puede ser una tarea compleja. Nuestro objetivo es lograr que sea sencillo para tí aprovechar cada buff y nerf, nuevas estrategias, equipamiento, y todo lo que ha cambiado en torno a tus campeones favoritos y tu liga actual.",
+  "app.donation_text": "No te cobraremos por esta información, pero ten en cuenta que tenemos increibles planes en mente para desarrollar todo tipo de cosas locas. Considera ayudarnos a hacerlo y gana un espacio especial en nuestros corazones!",
+  "app.title_grow": "crecer",
+  "app.title_help_us": "Ayúdanos a",
+  "app.title_insights": "Ideas",
+  "app.title_reasearch_knowledge": "Investigación + Conocimiento = ",
+  "about_us.title": "Jugadores como tú",
+  "join_team.title": "Únete a nuestro equipo",
+  "join_team.text": "Somos un equipo en crecimiento de jugadores y siempre estamos buscando conocer gente nueva que se interese por el League of Legends.",
+  "join_team.contact": "Si te gustaría formar parte de este proyecto o contribuir en tu propia forma, contáctanos en ",
+  "main_patch.current_patch": "Parche actual",
+  "tier_list.top_champions_title": "Campeones fuertes",
+  "tier_list.top_champions_intro":  "Estos son los campeones mas fuertes en el parche ",
+  "tier_list.top_champions_text": "Aunque no garantizan una victoria, jugar con campeones fuertes en el parche actual puede darte una ventaja sobre tu oponente.",
+  "patch_notes.important_highlights": "Conclusiones importantes",
+  "patch_notes.summary": "Aunque no es todo lo que cambió en este parche, resumimos los detalles más importantes que hay que tener en cuenta para sacar ventaja y no ser tomado por sorpresa por los cambios recientes.",
+  "patch_notes.dangerous_buffs": "Buffs peligrosos",
+  "patch_notes.killer_nerfs": "Nerfs asesinos",
+  "patch_notes.updates": "Cambios y actualizaciones"
 }

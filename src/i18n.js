@@ -1,8 +1,6 @@
 export const t = (key: string) => {
-  // const locale = (navigator.language || navigator.userLanguage).split('-')[0]
 
-  // TODO: Language forced to English while deciding what to do with translations.
-  const locale = 'en'
+  const locale = (navigator.language || navigator.userLanguage || 'en_us').split('-')[0]
   const messages = require(`./locales/${locale}/translation.json`)
   const message = messages[key]
   if (typeof message === 'undefined') {
@@ -12,4 +10,8 @@ export const t = (key: string) => {
   }
 
   return message
+}
+
+export const locale  = () => {
+  return (navigator.language || navigator.userLanguage || 'en_us').split('-')[0]
 }

@@ -1,4 +1,6 @@
 import React from 'react'
+import { t } from '../i18n.js'
+
 import { getBuffsList, getNerfsList, getUpdatesList } from '../utils.js'
 
 export default class PatchNotes extends React.Component
@@ -11,13 +13,13 @@ export default class PatchNotes extends React.Component
     const { patch } = this.props
     return(
       <div className='container info-panel'>
-        <h2 className="border-amumu-3"> Important highlights </h2>
+        <h2 className="border-amumu-3">{t('patch_notes.important_highlights')}</h2>
         <div>
-          <p> Even if this is not everything that has happened in patch {patch}, it summarizes the most important things you have to consider to take advantage of the current changes. </p>
+          <p>{t('patch_notes.summary')}</p>
         </div>
 
         <div>
-          <h4> Dangerous buffs </h4>
+          <h4> {t('patch_notes.dangerous_buffs')}</h4>
           <ul>
           {
             getBuffsList(patch).map((buff, index) =>
@@ -25,7 +27,7 @@ export default class PatchNotes extends React.Component
             )
           }
           </ul>
-          <h4> Killer nerfs </h4>
+          <h4> {t('patch_notes.killer_nerfs')}</h4>
             <ul>
             {
               getNerfsList(patch).map((nerf, index) =>
@@ -33,7 +35,7 @@ export default class PatchNotes extends React.Component
               )
             }
             </ul>
-          <h4> Updates and changes </h4>
+          <h4> {t('patch_notes.updates')}</h4>
             <ul>
             {
               getUpdatesList(patch).map((update, index) =>

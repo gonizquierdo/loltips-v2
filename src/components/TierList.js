@@ -1,4 +1,6 @@
 import React from 'react'
+import { t } from '../i18n.js'
+
 import { getChampionsTiles, getTopChampionsForLeague, getRoleIcons } from '../utils.js'
 
 export default class TierList extends React.Component
@@ -21,8 +23,8 @@ export default class TierList extends React.Component
     return (
       <div className='container info-panel'>
 
-        <h2 className="border-amumu-3"> Top champion picks</h2>
-        <p> These are the best champions in patch {patch}. Although it is not a certain win, playing champions that are strong in the current meta can give you an advantage over your opponent.</p>
+        <h2 className="border-amumu-3"> {t('tier_list.top_champions_title')}</h2>
+        <p> {t('tier_list.top_champions_intro')} {patch}.{t('tier_list.top_champions_text')}</p>
         <div className="row tier-images">
           {
             roles.map((role, index) =>
