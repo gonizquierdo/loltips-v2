@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.ec60259c.chunk.css",
-  "main.js": "/static/js/main.fa341416.chunk.js",
-  "main.js.map": "/static/js/main.fa341416.chunk.js.map",
-  "static/js/1.a98dcc1d.chunk.js": "/static/js/1.a98dcc1d.chunk.js",
-  "static/js/1.a98dcc1d.chunk.js.map": "/static/js/1.a98dcc1d.chunk.js.map",
+  "main.css": "/static/css/main.bc8b05ad.chunk.css",
+  "main.js": "/static/js/main.371f125c.chunk.js",
+  "main.js.map": "/static/js/main.371f125c.chunk.js.map",
+  "static/js/1.3dff6073.chunk.js": "/static/js/1.3dff6073.chunk.js",
+  "static/js/1.3dff6073.chunk.js.map": "/static/js/1.3dff6073.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/Nidalee.png": "/static/media/Nidalee.335f7864.png",
@@ -158,8 +158,8 @@
   "static/media/gold.png": "/static/media/gold.628a8076.png",
   "static/media/platinum.png": "/static/media/platinum.fbf7ad43.png",
   "static/media/diamond.png": "/static/media/diamond.2827c5bf.png",
-  "static/css/main.ec60259c.chunk.css.map": "/static/css/main.ec60259c.chunk.css.map",
+  "static/css/main.bc8b05ad.chunk.css.map": "/static/css/main.bc8b05ad.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.2bb3a89badc8019de1dd6d3e5f89648d.js": "/precache-manifest.2bb3a89badc8019de1dd6d3e5f89648d.js",
+  "precache-manifest.99d9a499addab01d111043a193d921be.js": "/precache-manifest.99d9a499addab01d111043a193d921be.js",
   "service-worker.js": "/service-worker.js"
 }
