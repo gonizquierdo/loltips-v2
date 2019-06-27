@@ -7,8 +7,10 @@
   "app.title_grow": "grow",
   "app.title_help_us": "Help us",
   "app.title_insights": "Insights",
-  "app.title_reasearch_knowledge": "Research . Knowledge . ",
-  "app.title_about_us": "About us",
-  "app.title_join_team": "Join our team",
+  "app.title_reasearch_knowledge": "Research + Knowledge = ",
+  "about_us.title": "Players like yourself",
+  "join_team.title": "Join our team",
+  "join_team.text": "We are a growing team of players and we are always looking to meet new people interested in League of Legends.",
+  "join_team.contact": "If you want to be a part of this project or contribute in your own way, get in touch with us at ",
   "main_patch.current_patch": "Current patch"
 }

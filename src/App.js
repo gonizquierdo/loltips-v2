@@ -25,7 +25,7 @@ function App() {
             <div className="container">
               <div className="bg-dark-transparent pb-2">
                 <h1 className="display-4 text-uppercase font-weight-light">
-                  {t('app.title_reasearch_knowledge')} <b className="text-amumu">{t('app.title_insights')}</b>
+                  {t('app.title_reasearch_knowledge')}<b className="text-amumu">{t('app.title_insights')}</b>
                 </h1>
                 <p className="lead text-center p-3">{t('app.info_text')}</p>
                 <h2 className="display-4 text-uppercase font-weight-light">
@@ -43,14 +43,18 @@ function App() {
         <Route path="/about-us" render={props =>
           <div className="container p-2">
             <div className="bg-dark-transparent">
-              <h1 className="display-4 text-uppercase">{t('app.title_about_us')}</h1>
+              <h1 className="display-4 text-uppercase">{t('about_us.title')}</h1>
             </div>
           </div>
         }/>
         <Route path="/join-team" render={props =>
           <div className="container p-2">
             <div className="bg-dark-transparent">
-              <h1 className="display-4 text-uppercase">{t('app.title_join_team')}</h1>
+              <h1 className="display-4 text-uppercase">{t('join_team.title')}</h1>
+              <div className="text-justify">
+                <p> {t("join_team.text")} </p>
+                <p> {t("join_team.contact")}</p>
+              </div>
             </div>
           </div>
         }/>
