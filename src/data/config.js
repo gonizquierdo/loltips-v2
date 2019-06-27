@@ -1,3 +1,3 @@
 export const config = {
-  "currentPatch": "9.12"
+  "currentPatch": "9.13"
 }
