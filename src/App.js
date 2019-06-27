@@ -4,6 +4,7 @@ import './App.css';
 
 import CustomNavbar from './components/CustomNavbar'
 import MainPatchInfo from './components/MainPatchInfo'
+import Footer from './components/Footer'
 
 import { getCurrentPatch } from './utils.js'
 import { t } from './i18n.js'
@@ -14,7 +15,7 @@ function App() {
   const currentPatch = getCurrentPatch();
   return (
     <Router>
-      <div className="App bg-dark text-light pb-4">
+      <div className="App bg-dark text-light">
         <CustomNavbar/>
         <header className="App-header">
         </header>
@@ -24,17 +25,18 @@ function App() {
             <div className="container">
               <div className="bg-dark-transparent pb-2">
                 <h1 className="display-4 text-uppercase font-weight-light">
-                  Research . Knowledge . <b className="text-amumu">Insights</b>
+                  {t('main.title_reasearch_knowledge')} <b className="text-amumu">{t('main.title_insights')}</b>
                 </h1>
                 <p className="lead text-center p-3">{t('main.info_text')}</p>
                 <h2 className="display-4 text-uppercase font-weight-light">
-                  Help us <b className="text-amumu">grow</b>
+                  {t('main.title_help_us')} <b className="text-amumu">{t('main.title_grow')}</b>
                 </h2>
                 <p className="lead text-center p-3">{t('main.donation_text')}</p>
                 <img alt="Btc qr code" className="pb-2" src={btc_qr}/>
                 <p className="text-monospace">38qjG4BS3Rqr66jbaZYm6rzjJGCDFuVrbz</p>
               </div>
             </div>
+            <Footer/>
           </div>
         }
         />
