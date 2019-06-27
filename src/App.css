@@ -3,18 +3,24 @@
   min-height: 100vh;
   color: black;
   background-image: url('./assets/resources/bg-huge-3.jpg');
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .App-header {
   background-color: #282c34;
   color: white;
 }
+
 .logo {
   max-height: 4rem!important;
   font-size: 1.7rem!important;
 }
+
+.nav-item a{
+  color: #fff !important;
+}
+
 .App-link {
   color: #61dafb;
 }
