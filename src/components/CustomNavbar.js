@@ -10,7 +10,7 @@ class CustomNavbar extends React.Component {
   render() {
 
     return (
-      <nav className="navbar-light navbar-expand-lg bg-light navbar navbar-fixed-top">
+      <nav className="navbar-light navbar-expand-lg bg-dark-transparent navbar navbar-fixed-top">
         <NavLink className="text-dark font-weight-light navbar-brand logo" to="/">
           SNEAKY<b className="text-amumu">BARON</b>
         </NavLink>
