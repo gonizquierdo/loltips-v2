@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link, NavLink, withRouter } from 'react-router-dom';
+import { t } from '../i18n.js'
+import { NavLink, withRouter } from 'react-router-dom';
 
 class CustomNavbar extends React.Component {
 
@@ -19,13 +20,13 @@ class CustomNavbar extends React.Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className={"nav-item " + this.getNavLinkClass("/")}>
-              <NavLink exact to="/" className="nav-link">Patch highlights</NavLink>
+              <NavLink exact to="/" className="nav-link">{t('navbar.patch_highlights')}</NavLink>
             </li>
             <li className={"nav-item " + this.getNavLinkClass("/about-us")}>
-              <NavLink to="/about-us" className="nav-link">About us</NavLink>
+              <NavLink to="/about-us" className="nav-link">{t('navbar.about_us')}</NavLink>
             </li>
             <li className={"nav-item " + this.getNavLinkClass("/join-team")}>
-              <NavLink to="/join-team" className="nav-link">Join the team</NavLink>
+              <NavLink to="/join-team" className="nav-link">{t('navbar.join_team')}</NavLink>
             </li>
           </ul>
         </div>

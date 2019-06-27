@@ -1,10 +1,13 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
+
 import CustomNavbar from './components/CustomNavbar'
 import MainPatchInfo from './components/MainPatchInfo'
-import AboutUs from './components/AboutUs'
-import {getCurrentPatch} from './utils.js'
+
+import { getCurrentPatch } from './utils.js'
+import { t } from './i18n.js'
+
 import btc_qr from './assets/btc_qr.png'
 
 function App() {
@@ -23,11 +26,11 @@ function App() {
                 <h1 className="display-4 text-uppercase font-weight-light">
                   Research . Knowledge . <b className="text-amumu">Insights</b>
                 </h1>
-                <p className="lead text-center p-3"> League of Legends is constantly evolving, and keeping up with it can be very time consuming. Our goal is to make it easy for you to take advantage of every buff and nerf, new strategies, builds, and everything that has changed around your favourite champions and current league.</p>
+                <p className="lead text-center p-3">{t('main.info_text')}</p>
                 <h2 className="display-4 text-uppercase font-weight-light">
                   Help us <b className="text-amumu">grow</b>
                 </h2>
-                <p className="lead text-center p-3"> We won't charge you for this information, but keep in mind we have awesome plans to develop all kinds of crazy stuff. Consider helping us to do it and get a special place in our hearts!</p>
+                <p className="lead text-center p-3">{t('main.donation_text')}</p>
                 <img alt="Btc qr code" className="pb-2" src={btc_qr}/>
                 <p className="text-monospace">38qjG4BS3Rqr66jbaZYm6rzjJGCDFuVrbz</p>
               </div>
@@ -36,13 +39,18 @@ function App() {
         }
         />
         <Route path="/about-us" render={props =>
-          <div className="bg-dark-transparent">
-            <h1 className="display-4"> About Us </h1>
+          <div className="container p-2">
+            <div className="bg-dark-transparent">
+              <h1 className="display-4 text-uppercase">{t('title.about_us')}</h1>
+            </div>
           </div>
         }/>
 
         <Route path="/join-team" render={props =>
-          <div>
+          <div className="container p-2">
+            <div className="bg-dark-transparent">
+              <h1 className="display-4 text-uppercase">{t('title.join_team')}</h1>
+            </div>
           </div>
         }/>
 
