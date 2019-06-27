@@ -1,0 +1,57 @@
+{
+  "top_champions": {
+    "iron":{
+      "top": ["Urgot", "Nasus", "Jax", "Rumble", "Garen"],
+      "jg": ["Amumu", "Vi", "Volibear","Jax","Rammus"],
+      "mid": ["Malzahar", "Veigar", "Ahri", "Yasuo", "Brand"],
+      "adc": ["MissFortune", "Sivir", "Jinx", "Caitlyn", "Xayah"],
+      "sup": ["Nautilus", "Taric", "Sona", "Nami", "Bard"]
+    },
+    "bronze":{
+      "top": ["Yorick", "Garen", "Nasus", "Urgot", "Mordekaiser"],
+      "jg": ["Skarner", "Amumu", "Volibear","Vi","Rammus"],
+      "mid": ["Malzahar", "Velkoz", "Brand", "Fizz", "Ahri"],
+      "adc": ["Sivir", "Jinx", "MissFortune", "Ashe", "KogMaw"],
+      "sup": ["Velkoz", "Sona", "Taric", "Brand", "Nami"]
+    },
+    "silver":{
+      "top":["Yorick", "Garen", "Nasus", "Urgot", "Mordekaiser"],
+      "jg":["Amumu", "Volibear", "Nunu","Vi","Warwick"],
+      "mid":["Malzahar", "Lux", "Velkoz", "Veigar", "Brand"],
+      "adc": ["Sivir", "Jinx", "MissFortune", "Ashe", "KogMaw"],
+      "sup": ["Sona", "Janna", "Velkoz", "Zilean", "Nami"]
+    },
+    "gold":{
+      "top":["Yorick", "Garen", "Kayle", "Mordekaiser", "Urgot"],
+      "jg":["Nunu", "Amumu", "Volibear","Vi","Warwick"],
+      "mid":["Malzahar", "Ahri", "Lux", "Anivia", "Veigar"],
+      "adc": ["Jinx", "Sivir", "Ashe", "MissFortune", "KogMaw"],
+      "sup": ["Sona", "Janna", "Nami", "Zilean", "Soraka"]
+    },
+    "platinum":{
+      "top":["Yorick", "Mordekaiser", "Garen", "Tahm Kench", "Karma"],
+      "jg":["Nunu", "Vi", "Amumu","Hecarim","Warwick"],
+      "mid":["Malzahar", "Ahri", "Lux", "Velkoz", "Anivia"],
+      "adc": ["Jinx", "Sivir", "KogMaw", "MissFortune", "Ashe"],
+      "sup": ["Sona", "Janna", "Nami", "Velkoz", "Soraka"]
+    },
+    "diamond":{
+      "top":["Kled", "Yorick", "Singed", "Kennen", "Karma"],
+      "jg":["Nunu", "Vi", "Shaco", "Udyr","Hecarim"],
+      "mid":["Malzahar", "Ahri", "Velkoz", "Katarina", "Zed"],
+      "adc": ["Jinx", "Sivir", "Vayne", "Draven", "Xayah"],
+      "sup": ["Sona", "Zilean", "Velkoz", "Nami", "Soraka"]
+    }
+  },
+  "buffs": [
+      "Illaoi's pasive (Prophet of an elder God) now scales with Ability Power. Also Harsh Lesson got a basic damage value",
+      "Sylas recieved a buff in his base Damage and HP growth. KingSlayer basic damage values were increased"
+  ],
+  "nerfs": [
+    "Sivir Ricochet costs more mana. HP growth and mana regen were decreased"
+  ],
+  "updates": [
+    "Illaoi got her abilities polished, now her playabilty should be better.",
+    "Udyr abilities now can get leveled up to level 6"
+  ]
+}
