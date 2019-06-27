@@ -1,0 +1,630 @@
+self.__precacheManifest = [
+  {
+    "revision": "842947265b0e075804b15ae06011afda",
+    "url": "/loltips-v2/static/media/MonkeyKing.84294726.png"
+  },
+  {
+    "revision": "f2647a8e9ac3cacfc883",
+    "url": "/loltips-v2/static/css/main.c59d3a74.chunk.css"
+  },
+  {
+    "revision": "a98dcc1d27ca2fb582ca",
+    "url": "/loltips-v2/static/js/1.a98dcc1d.chunk.js"
+  },
+  {
+    "revision": "e4eddad411d21c4aa5fb",
+    "url": "/loltips-v2/static/js/runtime~main.e4eddad4.js"
+  },
+  {
+    "revision": "0461d2d2f3ee9b82a596dd47feb745db",
+    "url": "/loltips-v2/static/media/btc_qr.0461d2d2.png"
+  },
+  {
+    "revision": "e6a435f3c8346b25b14ab78de3d5a2d4",
+    "url": "/loltips-v2/static/media/bg-huge-3.e6a435f3.jpg"
+  },
+  {
+    "revision": "df4f3e50d7a305a78b48e6e012679ac7",
+    "url": "/loltips-v2/static/media/Aatrox.df4f3e50.png"
+  },
+  {
+    "revision": "4979c17972899770e5199844b846875a",
+    "url": "/loltips-v2/static/media/Ahri.4979c179.png"
+  },
+  {
+    "revision": "254171517c5418e10285bba695dfa951",
+    "url": "/loltips-v2/static/media/Akali.25417151.png"
+  },
+  {
+    "revision": "0086e965f92644618d3ab5b5685a788a",
+    "url": "/loltips-v2/static/media/Alistar.0086e965.png"
+  },
+  {
+    "revision": "51d804c0d88232b558e0117f5fbb8df5",
+    "url": "/loltips-v2/static/media/Amumu.51d804c0.png"
+  },
+  {
+    "revision": "d5776a511c640c362e31c942cf9089b7",
+    "url": "/loltips-v2/static/media/Anivia.d5776a51.png"
+  },
+  {
+    "revision": "718f8a5057287055bff7729ca9f272c1",
+    "url": "/loltips-v2/static/media/Annie.718f8a50.png"
+  },
+  {
+    "revision": "4c292dfc73999728a4e0d2d339587781",
+    "url": "/loltips-v2/static/media/Ashe.4c292dfc.png"
+  },
+  {
+    "revision": "8e0590904f2208af5dd6e1f1eb3b949b",
+    "url": "/loltips-v2/static/media/AurelionSol.8e059090.png"
+  },
+  {
+    "revision": "baf32ee97457437ea20c42ba23003e0c",
+    "url": "/loltips-v2/static/media/Azir.baf32ee9.png"
+  },
+  {
+    "revision": "7e4bfdcbf84e00a47c9b59ad065178b1",
+    "url": "/loltips-v2/static/media/Bard.7e4bfdcb.png"
+  },
+  {
+    "revision": "b6f2e9817aae0cc81e9683a48aef44ae",
+    "url": "/loltips-v2/static/media/Blitzcrank.b6f2e981.png"
+  },
+  {
+    "revision": "7aa667709a7ce82e45c459e3df2d160a",
+    "url": "/loltips-v2/static/media/Brand.7aa66770.png"
+  },
+  {
+    "revision": "6929020f1fb06b15c88b1cc1d633ee28",
+    "url": "/loltips-v2/static/media/Braum.6929020f.png"
+  },
+  {
+    "revision": "9c878f64e87d8271fc8c9d907b5db714",
+    "url": "/loltips-v2/static/media/Caitlyn.9c878f64.png"
+  },
+  {
+    "revision": "985146cb1fb2beef0affd8d5fadc7451",
+    "url": "/loltips-v2/static/media/Camille.985146cb.png"
+  },
+  {
+    "revision": "723076f895babdd840b0edd87efc57ea",
+    "url": "/loltips-v2/static/media/Cassiopeia.723076f8.png"
+  },
+  {
+    "revision": "a0de7979503cbce96f0fcbb9e8c3442e",
+    "url": "/loltips-v2/static/media/Chogath.a0de7979.png"
+  },
+  {
+    "revision": "333a3cf69198e947cd5eca7d47d56726",
+    "url": "/loltips-v2/static/media/Corki.333a3cf6.png"
+  },
+  {
+    "revision": "d90f224fd6f51f772de5f2ac0e47c41e",
+    "url": "/loltips-v2/static/media/Darius.d90f224f.png"
+  },
+  {
+    "revision": "cf56348c33a7503b8e4d8ead08a5b924",
+    "url": "/loltips-v2/static/media/Diana.cf56348c.png"
+  },
+  {
+    "revision": "1c65e755a2c206335e17c49f9809d0b9",
+    "url": "/loltips-v2/static/media/Draven.1c65e755.png"
+  },
+  {
+    "revision": "932f656fde7956ad2d236bb5758057ae",
+    "url": "/loltips-v2/static/media/DrMundo.932f656f.png"
+  },
+  {
+    "revision": "e70923738d7d0d6222b074ecba6bf848",
+    "url": "/loltips-v2/static/media/Ekko.e7092373.png"
+  },
+  {
+    "revision": "5dc7ec04ae9f5c768be0412f47e25572",
+    "url": "/loltips-v2/static/media/Elise.5dc7ec04.png"
+  },
+  {
+    "revision": "0ab8373722fdf007072bbf941a89c1a5",
+    "url": "/loltips-v2/static/media/Evelynn.0ab83737.png"
+  },
+  {
+    "revision": "fc683afd720e24bd5ab33b9ebcc031be",
+    "url": "/loltips-v2/static/media/Ezreal.fc683afd.png"
+  },
+  {
+    "revision": "88729131517b0cf7c7728b4315ce9bf5",
+    "url": "/loltips-v2/static/media/Fiddlesticks.88729131.png"
+  },
+  {
+    "revision": "021d3dbf409641c5de3ec1aa8c9d2eae",
+    "url": "/loltips-v2/static/media/Fiora.021d3dbf.png"
+  },
+  {
+    "revision": "990f45bca4dce7e1f1fbd126bd63dd84",
+    "url": "/loltips-v2/static/media/Fizz.990f45bc.png"
+  },
+  {
+    "revision": "3289fcf2c053adeab5ad5242a85a4838",
+    "url": "/loltips-v2/static/media/Galio.3289fcf2.png"
+  },
+  {
+    "revision": "a883aa766debde85880d23396be80b0b",
+    "url": "/loltips-v2/static/media/Gangplank.a883aa76.png"
+  },
+  {
+    "revision": "4218db4d5d01bc4f98f32462e9977f8a",
+    "url": "/loltips-v2/static/media/Garen.4218db4d.png"
+  },
+  {
+    "revision": "e9c553799df2db297afcb8bcfc715daf",
+    "url": "/loltips-v2/static/media/Gnar.e9c55379.png"
+  },
+  {
+    "revision": "e7eb3fb357e71d7673434cef9ca1ffe2",
+    "url": "/loltips-v2/static/media/Gragas.e7eb3fb3.png"
+  },
+  {
+    "revision": "839eb7d1426303e65005ce5348fca00d",
+    "url": "/loltips-v2/static/media/Graves.839eb7d1.png"
+  },
+  {
+    "revision": "17e6955935acb7f57110f0af92514b1c",
+    "url": "/loltips-v2/static/media/Hecarim.17e69559.png"
+  },
+  {
+    "revision": "fde39f7fc210740c1c136b9d7af54de4",
+    "url": "/loltips-v2/static/media/Heimerdinger.fde39f7f.png"
+  },
+  {
+    "revision": "ef45c70b83c9c93d8b10616300ebc404",
+    "url": "/loltips-v2/static/media/Illaoi.ef45c70b.png"
+  },
+  {
+    "revision": "0dd86d1480a8ac2f04c633d682242c5d",
+    "url": "/loltips-v2/static/media/Irelia.0dd86d14.png"
+  },
+  {
+    "revision": "dedb397fd5fb9c50da2eafdb12a14ec3",
+    "url": "/loltips-v2/static/media/Ivern.dedb397f.png"
+  },
+  {
+    "revision": "3c0e532b88f181c04f52974040621b5a",
+    "url": "/loltips-v2/static/media/Janna.3c0e532b.png"
+  },
+  {
+    "revision": "1ea58740d3fa308f358fa6130df24272",
+    "url": "/loltips-v2/static/media/JarvanIV.1ea58740.png"
+  },
+  {
+    "revision": "36ffb83d35e210bc50fdfd0afe5aa108",
+    "url": "/loltips-v2/static/media/Jax.36ffb83d.png"
+  },
+  {
+    "revision": "893d74f89ede8cb3b93c5e13a8e5ce5d",
+    "url": "/loltips-v2/static/media/Jayce.893d74f8.png"
+  },
+  {
+    "revision": "e929ddfb491c3894554ffe4e876c6bd4",
+    "url": "/loltips-v2/static/media/Jhin.e929ddfb.png"
+  },
+  {
+    "revision": "995ee5a952c1b157f6f40a5d893b7332",
+    "url": "/loltips-v2/static/media/Jinx.995ee5a9.png"
+  },
+  {
+    "revision": "add835084b5385c8929c49c77c86a9cd",
+    "url": "/loltips-v2/static/media/Kaisa.add83508.png"
+  },
+  {
+    "revision": "e05b5fd8059a74ff2a93e5e470865b11",
+    "url": "/loltips-v2/static/media/Kalista.e05b5fd8.png"
+  },
+  {
+    "revision": "cee9e33f3ea3f3b989bcbb342730e231",
+    "url": "/loltips-v2/static/media/Karma.cee9e33f.png"
+  },
+  {
+    "revision": "b9884c94ab1e7bf68943bde28b41d3ea",
+    "url": "/loltips-v2/static/media/Karthus.b9884c94.png"
+  },
+  {
+    "revision": "0b561b21c3866018c20562b5e8e0167e",
+    "url": "/loltips-v2/static/media/Kassadin.0b561b21.png"
+  },
+  {
+    "revision": "4d48a1924f0aab15d0daa2ab3dd251e4",
+    "url": "/loltips-v2/static/media/Katarina.4d48a192.png"
+  },
+  {
+    "revision": "308c88266448037e67cbcfe509dae104",
+    "url": "/loltips-v2/static/media/Kayle.308c8826.png"
+  },
+  {
+    "revision": "261b10886cc47605c9f4af189fc49536",
+    "url": "/loltips-v2/static/media/Kayn.261b1088.png"
+  },
+  {
+    "revision": "b7d494fbf31cc0cbee6fce5e85212cab",
+    "url": "/loltips-v2/static/media/Kennen.b7d494fb.png"
+  },
+  {
+    "revision": "cd5e65eb891db2a9a9672541b0f9d90e",
+    "url": "/loltips-v2/static/media/Khazix.cd5e65eb.png"
+  },
+  {
+    "revision": "37b37df9cdaa894a71cb0e3f16e47345",
+    "url": "/loltips-v2/static/media/Kindred.37b37df9.png"
+  },
+  {
+    "revision": "eead7d5203920ff71e0f18af4c91c443",
+    "url": "/loltips-v2/static/media/Kled.eead7d52.png"
+  },
+  {
+    "revision": "5b9842ce01309a00b0955aa08f72d5ab",
+    "url": "/loltips-v2/static/media/KogMaw.5b9842ce.png"
+  },
+  {
+    "revision": "7b89c13a2fa68b30ea885b7ff7841176",
+    "url": "/loltips-v2/static/media/Leblanc.7b89c13a.png"
+  },
+  {
+    "revision": "1b4a743524b01e0885b8a6e84d5a8663",
+    "url": "/loltips-v2/static/media/LeeSin.1b4a7435.png"
+  },
+  {
+    "revision": "d9ef7ebdf4a2ecd23602e0703b0efba6",
+    "url": "/loltips-v2/static/media/Leona.d9ef7ebd.png"
+  },
+  {
+    "revision": "6419f4dd0a0829176487b76ac1c451da",
+    "url": "/loltips-v2/static/media/Lissandra.6419f4dd.png"
+  },
+  {
+    "revision": "f20ca11ca10442feb6293133a4af552c",
+    "url": "/loltips-v2/static/media/Lucian.f20ca11c.png"
+  },
+  {
+    "revision": "f869527e43fe09cb8ffebde8afc67b35",
+    "url": "/loltips-v2/static/media/Lulu.f869527e.png"
+  },
+  {
+    "revision": "448b64984852009cfb8f0224aa7c4889",
+    "url": "/loltips-v2/static/media/Lux.448b6498.png"
+  },
+  {
+    "revision": "0e760c6c8f787f8f5078a0928ee6b1eb",
+    "url": "/loltips-v2/static/media/Malphite.0e760c6c.png"
+  },
+  {
+    "revision": "be75f1b2270029596cfed5a27672cd68",
+    "url": "/loltips-v2/static/media/Malzahar.be75f1b2.png"
+  },
+  {
+    "revision": "d8cee56dc327f130e470caf9871b2654",
+    "url": "/loltips-v2/static/media/Maokai.d8cee56d.png"
+  },
+  {
+    "revision": "faee2a10105d81fb4207725e2cbe0109",
+    "url": "/loltips-v2/static/media/MasterYi.faee2a10.png"
+  },
+  {
+    "revision": "d346c5cbec6181e51d70ae1adc95479e",
+    "url": "/loltips-v2/static/media/MissFortune.d346c5cb.png"
+  },
+  {
+    "revision": "f2647a8e9ac3cacfc883",
+    "url": "/loltips-v2/static/js/main.f2647a8e.chunk.js"
+  },
+  {
+    "revision": "1f47f2d0efb66131aae709511db0c068",
+    "url": "/loltips-v2/static/media/Mordekaiser.1f47f2d0.png"
+  },
+  {
+    "revision": "7fa5c5fd7fb48e626d2202b7838b911f",
+    "url": "/loltips-v2/static/media/Morgana.7fa5c5fd.png"
+  },
+  {
+    "revision": "e8bad58096e0bf120d2945d2ae8c83cb",
+    "url": "/loltips-v2/static/media/Nami.e8bad580.png"
+  },
+  {
+    "revision": "b522ca7c4fabb7bdc81bfc9763313179",
+    "url": "/loltips-v2/static/media/Nasus.b522ca7c.png"
+  },
+  {
+    "revision": "6ee39f8f68f818674df4d9119e92345f",
+    "url": "/loltips-v2/static/media/Nautilus.6ee39f8f.png"
+  },
+  {
+    "revision": "9aba9b1c170187adae325e8c8f8e7c20",
+    "url": "/loltips-v2/static/media/Neeko.9aba9b1c.png"
+  },
+  {
+    "revision": "335f7864730a979de75edd6d870c8521",
+    "url": "/loltips-v2/static/media/Nidalee.335f7864.png"
+  },
+  {
+    "revision": "8e6827b2850371389fe0337aa33932c2",
+    "url": "/loltips-v2/static/media/Nocturne.8e6827b2.png"
+  },
+  {
+    "revision": "dfc740c21ede2d3b67f168e21c18ee13",
+    "url": "/loltips-v2/static/media/Nunu.dfc740c2.png"
+  },
+  {
+    "revision": "305f00d62a6f0ebe85737ae96dd90a86",
+    "url": "/loltips-v2/static/media/Olaf.305f00d6.png"
+  },
+  {
+    "revision": "d37ee8baad6a464c8469a15ee08abdd5",
+    "url": "/loltips-v2/static/media/Orianna.d37ee8ba.png"
+  },
+  {
+    "revision": "c85a85ae33a47512d18da2cf10d65a90",
+    "url": "/loltips-v2/static/media/Ornn.c85a85ae.png"
+  },
+  {
+    "revision": "91b9a2dcb7dc3abf408b4591d70c4440",
+    "url": "/loltips-v2/static/media/Pantheon.91b9a2dc.png"
+  },
+  {
+    "revision": "4d7a4c3082977a3a10be591b1110bfc6",
+    "url": "/loltips-v2/static/media/Poppy.4d7a4c30.png"
+  },
+  {
+    "revision": "e2e629702270c00ab9244bd4daa2b9d5",
+    "url": "/loltips-v2/static/media/Pyke.e2e62970.png"
+  },
+  {
+    "revision": "648ac97a2b2e7d7adbd55b89af9e46f6",
+    "url": "/loltips-v2/static/media/Quinn.648ac97a.png"
+  },
+  {
+    "revision": "ca6c5f43072db779dcb003d61b3d05f2",
+    "url": "/loltips-v2/static/media/Rakan.ca6c5f43.png"
+  },
+  {
+    "revision": "725ef981a9ce9c78d0db9543c5be31c7",
+    "url": "/loltips-v2/static/media/Rammus.725ef981.png"
+  },
+  {
+    "revision": "149dd5241558132bb97fdbbb060d42dc",
+    "url": "/loltips-v2/static/media/RekSai.149dd524.png"
+  },
+  {
+    "revision": "ca547a93dc1b820112207e4cfe786e0b",
+    "url": "/loltips-v2/static/media/Renekton.ca547a93.png"
+  },
+  {
+    "revision": "95bfb2a3d5b04572cf576defb0773a30",
+    "url": "/loltips-v2/static/media/Rengar.95bfb2a3.png"
+  },
+  {
+    "revision": "440d1bd8c95ee9b57aa5dff0200e09e4",
+    "url": "/loltips-v2/static/media/Riven.440d1bd8.png"
+  },
+  {
+    "revision": "3a3c9913d3fc7dbab73defa2aa59054d",
+    "url": "/loltips-v2/static/media/Rumble.3a3c9913.png"
+  },
+  {
+    "revision": "68910395988327ea8294bc5e36da5e96",
+    "url": "/loltips-v2/static/media/Ryze.68910395.png"
+  },
+  {
+    "revision": "334bbb28d99b00df03f7c28e929457ce",
+    "url": "/loltips-v2/static/media/Sejuani.334bbb28.png"
+  },
+  {
+    "revision": "5c6b1e9d80ae534d7e58b6e1ec5ba224",
+    "url": "/loltips-v2/static/media/Shaco.5c6b1e9d.png"
+  },
+  {
+    "revision": "b1b039683bb21d218d14d20134028a7b",
+    "url": "/loltips-v2/static/media/Shen.b1b03968.png"
+  },
+  {
+    "revision": "87490f7a82a320ea2784d23653e0b7b0",
+    "url": "/loltips-v2/static/media/Shyvana.87490f7a.png"
+  },
+  {
+    "revision": "61bdcef1fd33746ab7b672441ac3e3f9",
+    "url": "/loltips-v2/static/media/Singed.61bdcef1.png"
+  },
+  {
+    "revision": "ad52afc162da628a258d89739eadad12",
+    "url": "/loltips-v2/static/media/Sion.ad52afc1.png"
+  },
+  {
+    "revision": "c0bb039cdc9be97baf258ad3e8ba42f4",
+    "url": "/loltips-v2/static/media/Sivir.c0bb039c.png"
+  },
+  {
+    "revision": "48ef4fba07defd7846ee3f87c82ae9c2",
+    "url": "/loltips-v2/static/media/Skarner.48ef4fba.png"
+  },
+  {
+    "revision": "e7c34d1aeb0da3470d94c90eff972e26",
+    "url": "/loltips-v2/static/media/Sona.e7c34d1a.png"
+  },
+  {
+    "revision": "e3925977da5cff76ab456040466b1eed",
+    "url": "/loltips-v2/static/media/Soraka.e3925977.png"
+  },
+  {
+    "revision": "f832bf9dbd11be46cc18f7635eea5348",
+    "url": "/loltips-v2/static/media/Swain.f832bf9d.png"
+  },
+  {
+    "revision": "f71f2b20ad8b043358b3e4806254b729",
+    "url": "/loltips-v2/static/media/Sylas.f71f2b20.png"
+  },
+  {
+    "revision": "f3d9ed3682907b91cea582b342f179d1",
+    "url": "/loltips-v2/static/media/Syndra.f3d9ed36.png"
+  },
+  {
+    "revision": "57b819d64ef4ee6747946c7a4d53132f",
+    "url": "/loltips-v2/static/media/TahmKench.57b819d6.png"
+  },
+  {
+    "revision": "4021c7ce90e0386b027b72bfb2d8444d",
+    "url": "/loltips-v2/static/media/Taliyah.4021c7ce.png"
+  },
+  {
+    "revision": "6d6bb6e1f1d8614fff29cd21fd7755eb",
+    "url": "/loltips-v2/static/media/Talon.6d6bb6e1.png"
+  },
+  {
+    "revision": "6565768d200f6f7569bbf46c6696e904",
+    "url": "/loltips-v2/static/media/Taric.6565768d.png"
+  },
+  {
+    "revision": "1139fe685affc14c9a23a82c1d2105d3",
+    "url": "/loltips-v2/static/media/Teemo.1139fe68.png"
+  },
+  {
+    "revision": "eab5bcc1dd7ed9696b923d3fc9279ca3",
+    "url": "/loltips-v2/static/media/Thresh.eab5bcc1.png"
+  },
+  {
+    "revision": "34244a5142c7f4138298e16bf0c6bbaa",
+    "url": "/loltips-v2/static/media/Tristana.34244a51.png"
+  },
+  {
+    "revision": "f05672e6b928274dbe87b76755cf6888",
+    "url": "/loltips-v2/static/media/Trundle.f05672e6.png"
+  },
+  {
+    "revision": "d0b4f646d208c15940312772412d6ffb",
+    "url": "/loltips-v2/static/media/Tryndamere.d0b4f646.png"
+  },
+  {
+    "revision": "b9d51654c13fa168ada10500969316b1",
+    "url": "/loltips-v2/static/media/TwistedFate.b9d51654.png"
+  },
+  {
+    "revision": "f853d73d8141704d87fb7b82488940f5",
+    "url": "/loltips-v2/static/media/Twitch.f853d73d.png"
+  },
+  {
+    "revision": "85abcd30d6401dfdaa1d984098601d0d",
+    "url": "/loltips-v2/static/media/Udyr.85abcd30.png"
+  },
+  {
+    "revision": "ee6736fc6b27e89cb6af16e15c72a626",
+    "url": "/loltips-v2/static/media/Urgot.ee6736fc.png"
+  },
+  {
+    "revision": "ea68c04514d0c016b227b49502307d60",
+    "url": "/loltips-v2/static/media/Varus.ea68c045.png"
+  },
+  {
+    "revision": "5d5af670ccba74badf13a6d013e3b0de",
+    "url": "/loltips-v2/static/media/Vayne.5d5af670.png"
+  },
+  {
+    "revision": "96677bbd9ea51caa3a67e13d27edb654",
+    "url": "/loltips-v2/static/media/Veigar.96677bbd.png"
+  },
+  {
+    "revision": "86b6884755f54a85e6cad66494841e1f",
+    "url": "/loltips-v2/static/media/Velkoz.86b68847.png"
+  },
+  {
+    "revision": "65bb19cacdeb83583e221e73e87ee6a9",
+    "url": "/loltips-v2/static/media/Vi.65bb19ca.png"
+  },
+  {
+    "revision": "1a602e7dc475be3ca9ccba41689c71d3",
+    "url": "/loltips-v2/static/media/Viktor.1a602e7d.png"
+  },
+  {
+    "revision": "f6cf900a0538c9825de587fbb360c611",
+    "url": "/loltips-v2/static/media/Vladimir.f6cf900a.png"
+  },
+  {
+    "revision": "f3465f547555a081d437f6c9894ca131",
+    "url": "/loltips-v2/static/media/Volibear.f3465f54.png"
+  },
+  {
+    "revision": "ffd8d8f6b939e226677487d20e44af76",
+    "url": "/loltips-v2/static/media/Warwick.ffd8d8f6.png"
+  },
+  {
+    "revision": "1cc5dde149711568fc0253729d625186",
+    "url": "/loltips-v2/static/media/Xayah.1cc5dde1.png"
+  },
+  {
+    "revision": "dc049599ee34fc386ce9e4b3c431f128",
+    "url": "/loltips-v2/static/media/Xerath.dc049599.png"
+  },
+  {
+    "revision": "f9ba83de2c8b43d1c5e4778f50595c6b",
+    "url": "/loltips-v2/static/media/XinZhao.f9ba83de.png"
+  },
+  {
+    "revision": "8c420ee28e07c4324e4ca4ad09927021",
+    "url": "/loltips-v2/static/media/Yasuo.8c420ee2.png"
+  },
+  {
+    "revision": "bef9327d0e2e9d4814223cea454ae3f0",
+    "url": "/loltips-v2/static/media/Yorick.bef9327d.png"
+  },
+  {
+    "revision": "d5eb5c576e413c134674965c42f192d7",
+    "url": "/loltips-v2/static/media/Yuumi.d5eb5c57.png"
+  },
+  {
+    "revision": "0924ed286e5365ea7cd18276fcb963fc",
+    "url": "/loltips-v2/static/media/Zac.0924ed28.png"
+  },
+  {
+    "revision": "58968b3745895c3a549a6512c9e274e8",
+    "url": "/loltips-v2/static/media/Zed.58968b37.png"
+  },
+  {
+    "revision": "cca49ba2e3892c75299bb2aa576ec34d",
+    "url": "/loltips-v2/static/media/Ziggs.cca49ba2.png"
+  },
+  {
+    "revision": "9bbf85ed488d4a14cee3583d6536c4d9",
+    "url": "/loltips-v2/static/media/Zilean.9bbf85ed.png"
+  },
+  {
+    "revision": "eb60297ed9a5185f56e27681d2939b94",
+    "url": "/loltips-v2/static/media/Zoe.eb60297e.png"
+  },
+  {
+    "revision": "3049bbc2c6d6156feb02e615ddd33105",
+    "url": "/loltips-v2/static/media/Zyra.3049bbc2.png"
+  },
+  {
+    "revision": "d18a3cad1d61706463ed450bc6dd6591",
+    "url": "/loltips-v2/static/media/iron.d18a3cad.png"
+  },
+  {
+    "revision": "c7e85443e977b2d9f920e803154b4645",
+    "url": "/loltips-v2/static/media/bronze.c7e85443.png"
+  },
+  {
+    "revision": "813d650ad52d4d4a0e22b69c6befcf39",
+    "url": "/loltips-v2/static/media/silver.813d650a.png"
+  },
+  {
+    "revision": "628a8076fe86a1d5ee851971c38e239f",
+    "url": "/loltips-v2/static/media/gold.628a8076.png"
+  },
+  {
+    "revision": "fbf7ad433e682608531e484f89b05819",
+    "url": "/loltips-v2/static/media/platinum.fbf7ad43.png"
+  },
+  {
+    "revision": "2827c5bfa9fbb113202b6f34cc62aca6",
+    "url": "/loltips-v2/static/media/diamond.2827c5bf.png"
+  },
+  {
+    "revision": "d87668ad5149e133cfbefdc81515f1a2",
+    "url": "/loltips-v2/index.html"
+  }
+];
