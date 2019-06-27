@@ -42,6 +42,11 @@ export default class PatchNotes extends React.Component
             }
             </ul>
         </div>
+        <div className="text-center w-100">
+            <a href="https://las.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-913" target="_new">
+              <button type="button" class="btn btn-scattler">View official patch notes</button>
+            </a>
+        </div>
       </div>
     )
   }
