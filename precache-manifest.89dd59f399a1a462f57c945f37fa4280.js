@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/MonkeyKing.84294726.png"
   },
   {
-    "revision": "371f125cf60154fbf55e",
-    "url": "/static/css/main.bc8b05ad.chunk.css"
+    "revision": "54c1cff538add69627cc",
+    "url": "/static/css/main.b2e4e92a.chunk.css"
   },
   {
-    "revision": "3dff60737ae4bdcd8bc0",
-    "url": "/static/js/1.3dff6073.chunk.js"
+    "revision": "f01a26c36376036cf0f6",
+    "url": "/static/js/1.f01a26c3.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/btc_qr.0461d2d2.png"
   },
   {
-    "revision": "e6a435f3c8346b25b14ab78de3d5a2d4",
-    "url": "/static/media/bg-huge-3.e6a435f3.jpg"
+    "revision": "c7a2dc18187a9f18ddaef6917ed4d351",
+    "url": "/static/media/bg-huge-3.c7a2dc18.jpg"
   },
   {
     "revision": "df4f3e50d7a305a78b48e6e012679ac7",
@@ -312,8 +312,8 @@ self.__precacheManifest = [
     "url": "/static/media/MissFortune.d346c5cb.png"
   },
   {
-    "revision": "371f125cf60154fbf55e",
-    "url": "/static/js/main.371f125c.chunk.js"
+    "revision": "54c1cff538add69627cc",
+    "url": "/static/js/main.54c1cff5.chunk.js"
   },
   {
     "revision": "1f47f2d0efb66131aae709511db0c068",
@@ -624,7 +624,7 @@ self.__precacheManifest = [
     "url": "/static/media/diamond.2827c5bf.png"
   },
   {
-    "revision": "dedd6fed527116dc94a757196758ce00",
+    "revision": "478d95085b67b5c51fd348b988eaeef3",
     "url": "/index.html"
   }
 ];
