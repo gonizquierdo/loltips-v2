@@ -118,6 +118,10 @@ h4 {
   width: 18rem;
 }
 
+.nav-amumu:hover {
+  color: #009060!important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
