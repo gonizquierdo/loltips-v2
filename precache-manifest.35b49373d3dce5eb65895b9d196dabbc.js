@@ -4,16 +4,20 @@ self.__precacheManifest = [
     "url": "/static/media/MonkeyKing.84294726.png"
   },
   {
-    "revision": "0e4b16869c1176e97ac6",
-    "url": "/static/css/main.b2e4e92a.chunk.css"
+    "revision": "fe1ba6ce6d03a2396720",
+    "url": "/static/css/main.06a3590d.chunk.css"
   },
   {
-    "revision": "f01a26c36376036cf0f6",
-    "url": "/static/js/1.f01a26c3.chunk.js"
+    "revision": "1e6b018057e0bb6e9253",
+    "url": "/static/js/1.1e6b0180.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
+  },
+  {
+    "revision": "2e0e31c6f609928961e096df64258853",
+    "url": "/static/media/logo.2e0e31c6.png"
   },
   {
     "revision": "0461d2d2f3ee9b82a596dd47feb745db",
@@ -312,8 +316,8 @@ self.__precacheManifest = [
     "url": "/static/media/MissFortune.d346c5cb.png"
   },
   {
-    "revision": "0e4b16869c1176e97ac6",
-    "url": "/static/js/main.0e4b1686.chunk.js"
+    "revision": "fe1ba6ce6d03a2396720",
+    "url": "/static/js/main.fe1ba6ce.chunk.js"
   },
   {
     "revision": "1f47f2d0efb66131aae709511db0c068",
@@ -624,7 +628,7 @@ self.__precacheManifest = [
     "url": "/static/media/diamond.2827c5bf.png"
   },
   {
-    "revision": "41fd4f4a8bbc3b5ac9826dfac2180f1c",
+    "revision": "4729ac161ce7ddd130d726f47b41a5b6",
     "url": "/index.html"
   }
 ];
