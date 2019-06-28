@@ -14,7 +14,7 @@ class CustomNavbar extends React.Component {
   render() {
 
     return (
-      <nav className="navbar-light navbar-expand-lg bg-dark-transparent navbar navbar-fixed-top">
+      <nav className="navbar-light navbar-expand-lg bg-dark-transparent navbar lead">
         <NavLink className="text-dark font-weight-light navbar-brand logo" to="/">
           <img
             src={logo}
@@ -26,7 +26,7 @@ class CustomNavbar extends React.Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className={"nav-item " + this.getNavLinkClass("/")}>
+            <li className={"nav-amumu nav-item " + this.getNavLinkClass("/")}>
               <NavLink exact to="/" className="nav-link">{t('navbar.patch_highlights')}</NavLink>
             </li>
             {/*
