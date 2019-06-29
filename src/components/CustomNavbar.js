@@ -18,6 +18,7 @@ class CustomNavbar extends React.Component {
         <NavLink className="text-dark font-weight-light navbar-brand logo" to="/">
           <img
             src={logo}
+            alt="Sneakybaron logo"
             width={250}
             />
         </NavLink>
