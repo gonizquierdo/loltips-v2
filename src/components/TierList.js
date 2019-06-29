@@ -24,7 +24,7 @@ export default class TierList extends React.Component
       <div className='container info-panel'>
 
         <h2 className="border-amumu-3"> {t('tier_list.top_champions_title')}</h2>
-        <p> {t('tier_list.top_champions_intro')} {patch}.{t('tier_list.top_champions_text')}</p>
+        <p> {t('tier_list.top_champions_intro')} {patch}. {t('tier_list.top_champions_text')}</p>
         <div className="row tier-images">
           {
             roles.map((role, index) =>
