@@ -19,7 +19,6 @@ export default class ChampionRotation extends React.Component
               <div className="row  pl-2 tier-images">
               {
                 free_championsID.map((id, index) =>
-
                 <img
                   key={index}
                   width={64}
@@ -29,7 +28,6 @@ export default class ChampionRotation extends React.Component
                   title={champs[id]}
                   alt={champs[id]}
                 />
-
                 )
               }
               </div>
