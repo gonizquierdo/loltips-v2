@@ -21,6 +21,7 @@
   "patch_notes.dangerous_buffs": "Danerous buffs",
   "patch_notes.killer_nerfs": "Killer nerfs",
   "patch_notes.updates": "Updates and changes",
-  "patch_notes.official_notes": "View official patch notes"
-
+  "patch_notes.official_notes": "View official patch notes",
+  "champion_rotation.title": "Champion rotation",
+  "champion_rotation.text" : "These are the champions that will we free to play in this week champion rotation."
 }

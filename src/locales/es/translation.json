@@ -21,5 +21,7 @@
   "patch_notes.dangerous_buffs": "Buffs peligrosos",
   "patch_notes.killer_nerfs": "Nerfs asesinos",
   "patch_notes.updates": "Cambios y actualizaciones",
-  "patch_notes.official_notes": "Ver notas oficiales del parche"
+  "patch_notes.official_notes": "Ver notas oficiales del parche",
+  "champion_rotation.title": "Rotacion de campeones",
+  "champion_rotation.text" : "Estos son los campeones que seran gratuitos en la rotacion de esta semana. "
 }
