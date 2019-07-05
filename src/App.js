@@ -5,6 +5,7 @@ import './App.css';
 import CustomNavbar from './components/CustomNavbar'
 import MainPatchInfo from './components/MainPatchInfo'
 import Footer from './components/Footer'
+import ChampionRotation from './components/ChampionRotation'
 
 import { getCurrentPatch } from './utils.js'
 import { t } from './i18n.js'
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/" render={props =>
           <div>
             <MainPatchInfo patch={currentPatch}/>
+            <ChampionRotation/>
             <div className="container">
               <div className="bg-dark-transparent pb-2">
                 <h1 className="display-4 text-uppercase font-weight-light">
