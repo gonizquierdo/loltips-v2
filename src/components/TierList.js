@@ -1,27 +1,14 @@
 import React from 'react'
 import { t } from '../i18n.js'
-import axios from 'axios';
 
-import { getChampionsTiles, getTopChampionsForLeague, getRoleIcons } from '../utils.js'
+import { getChampionsTiles, getRoleIcons } from '../utils.js'
 
 export default class TierList extends React.Component
 {
   props: {
     patch: 'string',
+    patch_data: Object,
     league: 'string'
-  }
-
-  constructor(props) {
-    super(props);
-    this.state = { top_champions: {}}
-  }
-
-  componentWillMount() {
-    axios.get('http://localhost:8000/api/patch/en/912')
-    .then(response => {
-      let json = response.data
-      this.setState({ top_champions: json['top_champions'] })
-    })
   }
 
   renderTopChampions(top_champions) {
@@ -66,15 +53,16 @@ export default class TierList extends React.Component
 
   render() {
 
-    const { patch } = this.props
-    const { top_champions } = this.state
+    const { patch, patch_data } = this.props
 
     return (
       <div className='container info-panel'>
         <h2 className="border-amumu-3"> {t('tier_list.top_champions_title')}</h2>
         <p> {t('tier_list.top_champions_intro')} {patch}. {t('tier_list.top_champions_text')}</p>
 
-        { Object.keys(top_champions).length ? this.renderTopChampions(top_champions) : (<span> Loading ... </span>) }
+        {
+          this.renderTopChampions(patch_data.top_champions)
+        }
 
       </div>
     )
