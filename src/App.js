@@ -22,7 +22,6 @@ function App() {
           <div>
             <MainPatchInfo patch={currentPatch}/>
 
-            <Footer/>
           </div>
         }
         />
