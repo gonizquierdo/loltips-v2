@@ -1,8 +1,6 @@
 import React from 'react'
 import { NavLink, withRouter } from 'react-router-dom';
 
-import { t } from '../i18n.js'
-
 import logo from '../assets/resources/logo.png'
 
 class CustomNavbar extends React.Component {

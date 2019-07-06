@@ -4,7 +4,6 @@ import './App.css';
 
 import CustomNavbar from './components/CustomNavbar'
 import MainPatchInfo from './components/MainPatchInfo'
-import Footer from './components/Footer'
 
 import { getCurrentPatch } from './utils.js'
 import { t } from './i18n.js'
