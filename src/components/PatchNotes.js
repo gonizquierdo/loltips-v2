@@ -57,7 +57,7 @@ export default class PatchNotes extends React.Component
         </div>
         <div className="text-center w-100">
             <a href={this.get_link_for_language()} target="_new">
-              <button type="button" class="btn btn-scattler">{t('patch_notes.official_notes')}</button>
+              <button type="button" className="btn btn-scattler">{t('patch_notes.official_notes')}</button>
             </a>
         </div>
       </div>
