@@ -1,8 +1,6 @@
 import React from 'react'
 import { NavLink, withRouter } from 'react-router-dom';
 
-import { t } from '../i18n.js'
-
 import logo from '../assets/resources/logo.png'
 
 class CustomNavbar extends React.Component {
@@ -26,19 +24,20 @@ class CustomNavbar extends React.Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          {/*
           <ul className="navbar-nav mr-auto">
             <li className={"nav-amumu nav-item " + this.getNavLinkClass("/")}>
               <NavLink exact to="/" className="nav-link">{t('navbar.patch_highlights')}</NavLink>
             </li>
-            {/*
+
             <li className={"nav-item " + this.getNavLinkClass("/about-us")}>
               <NavLink to="/about-us" className="nav-link">{t('navbar.about_us')}</NavLink>
             </li>
             <li className={"nav-item " + this.getNavLinkClass("/join-team")}>
               <NavLink to="/join-team" className="nav-link">{t('navbar.join_team')}</NavLink>
             </li>
-            */}
-          </ul>
+          <ul>
+          */}
         </div>
 
       </nav>

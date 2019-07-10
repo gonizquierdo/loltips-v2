@@ -5,6 +5,9 @@
   background-image: url('./assets/resources/bg-huge-3.jpg');
   background-attachment: fixed;
   background-size: cover;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 .App-header {
