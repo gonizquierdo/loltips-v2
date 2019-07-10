@@ -24,7 +24,7 @@ export default class MainPatchInfo extends React.Component
   }
 
   componentDidMount() {
-    axios.get('http://api.sneakybaron.gg:8000/api/patch/'+locale()+'/'+this.props.patch.split(".").join(""))
+    axios.get('http://api.sneakybaron.gg/api/patch/'+locale()+'/'+this.props.patch.split(".").join(""))
     .then(response => {
       let json = response.data
       this.setState({ patch_data: json })
