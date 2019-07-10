@@ -23,8 +23,8 @@ export default class PatchNotes extends React.Component
   render() {
     const { patch } = this.props
     return(
-      <div className='container info-panel'>
-        <h2 className="border-amumu-3">{t('patch_notes.important_highlights')}</h2>
+      <div className="info-panel">
+        <h2 className="border-blue-3">{t('patch_notes.important_highlights')}</h2>
         <div>
           <p>{t('patch_notes.summary')}</p>
         </div>
@@ -57,7 +57,7 @@ export default class PatchNotes extends React.Component
         </div>
         <div className="text-center w-100">
             <a href={this.get_link_for_language()} target="_new">
-              <button type="button" class="btn btn-scattler">{t('patch_notes.official_notes')}</button>
+              <button type="button" className="btn btn-scattler">{t('patch_notes.official_notes')}</button>
             </a>
         </div>
       </div>

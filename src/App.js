@@ -15,23 +15,23 @@ function App() {
   const currentPatch = getCurrentPatch();
   return (
     <Router>
-      <div className="App bg-dark text-light">
+      <div className="App text-light">
         <CustomNavbar/>
         <header className="App-header">
         </header>
         <Route exact path="/" render={props =>
-          <div>
+          <div className="mt-5">
             <MainPatchInfo patch={currentPatch}/>
-            <div className="container">
-              <div className="bg-dark-transparent pb-2">
+            <div>
+              <div className="bg-dark-blue pb-2">
                 <h1 className="display-4 text-uppercase font-weight-light">
-                  {t('app.title_reasearch_knowledge')}<b className="text-amumu">{t('app.title_insights')}</b>
+                  {t('app.title_reasearch_knowledge')}<b className="text-blue-new">{t('app.title_insights')}</b>
                 </h1>
                 <p className="lead text-center p-3">{t('app.info_text')}</p>
                 <div className="row">
                   <div className="col-lg-8">
                     <h2 className="display-4 text-uppercase font-weight-light">
-                      {t('app.title_help_us')} <b className="text-amumu">{t('app.title_grow')}</b>
+                      {t('app.title_help_us')} <b className="text-blue-new">{t('app.title_grow')}</b>
                     </h2>
                     <p className="lead text-justify p-3">{t('app.donation_text')}</p>
                   </div>
