@@ -1,7 +1,5 @@
 import React from 'react'
-import { NavLink, withRouter } from 'react-router-dom';
-
-import { t } from '../i18n.js'
+import { withRouter } from 'react-router-dom';
 
 import logo from '../assets/logo_letras.png'
 
@@ -14,9 +12,10 @@ class CustomNavbar extends React.Component {
   render() {
 
     return (
-  <nav className="navbar bg-dark-new navbar-expand-lg text-uppercase fixed-top ">
+  <nav className="navbar bg-dark-new navbar-expand-lg">
     <div className="container">
-      <img src={logo} width="250" className="navbar-brand js-scroll-trigger" alt="Sb logo leters"/>
+      <h1 className="logo js-scroll-trigger"> Sneaky<b className="text-blue-new">Notes</b></h1>
+      <div>Powered by <a href="https://www.sneakybaron.gg"><img src={logo} width="200" className="" alt="Sb logo leters"/></a></div>
     </div>
   </nav>
     )

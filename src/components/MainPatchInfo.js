@@ -55,8 +55,8 @@ export default class MainPatchInfo extends React.Component
     const league_icons = getLeagueIcons();
     const leagues = ['iron', 'bronze', 'silver', 'gold', 'platinum', 'diamond']
     return (
-      <div className="pt-3 text-dark">
-        <div className="tab p-1 pl-4">
+      <div className="pt-3">
+        <div className="tab p-1 pl-4 text-light bg-dark-new">
           <div className="row">
             <p className="text-uppercase m-0 pl-4 pr-4 col col-8">{t('main_patch.current_patch')}: <b className="text-blue-new">{patch} </b></p>
             <div className="btn-group dropdown col col-2">
@@ -83,14 +83,18 @@ export default class MainPatchInfo extends React.Component
             </div>
           </div>
         </div>
-        <div className="shadow mt-0 mb-3 p-3 bg-dark-transparent text-light rounded-right rounded-bottom">
+        <div className="shadow mt-0 p-3 bg-dark-new text-light rounded-right rounded-bottom text-justify">
             {
               Object.keys(patch_data).length ? this.renderComponents() : (<div class="spinner-border" role="status">
                 <span class="sr-only">Loading...</span>
               </div>
               )
             }
+          <hr className="border-light"></hr>
+          <small className="font-italic text-muted">Toda la información fue obtenida a partir de diversas fuentes online (YouTube, notas oficiales, reviews, etc.) y adaptada por nuestro equipo para simplificar la lectura por parte del usuario.</small>
         </div>
+
+
 
       </div>
     )

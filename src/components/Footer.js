@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
   render() {
 
     return (
-      <footer class="page-footer font-small blue">
+      <footer class="page-footer font-small text-light footer">
         <div class="bg-dark-new footer-copyright text-center py-3">© 2019
           <a href="https://www.sneakybaron.gg"> Sneakybaron.gg </a>
         </div>

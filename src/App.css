@@ -1,9 +1,8 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-image: url("./assets/resources/bg-huge-4.jpg");
 }
-
 .App-header {
   background-color: #282c34;
   color: white;
@@ -11,7 +10,8 @@
 
 .logo {
   max-height: 4rem!important;
-  font-size: 1.7rem!important;
+  font-size: 2rem!important;
+  font-weight: lighter;
 }
 
 .nav-item a{
