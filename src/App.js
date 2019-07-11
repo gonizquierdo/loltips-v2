@@ -22,28 +22,7 @@ function App() {
           </div>
         }
         />
-        <Route path="/about-us" render={props =>
-          <div className="container p-2">
-            <div className="bg-dark-transparent">
-              <h1 className="display-4 text-uppercase">{t('about_us.title')}</h1>
-            </div>
-          </div>
-        }/>
-        <Route path="/join-team" render={props =>
-          <div className="container p-2">
-            <div className="bg-dark-transparent">
-              <h1 className="display-4 text-uppercase">{t('join_team.title')}</h1>
-              <div className="text-justify">
-                <p> {t("join_team.text")} </p>
-                <p> {t("join_team.contact")}</p>
-              </div>
-            </div>
-          </div>
-        }/>
-
-
       </div>
-
       <footer class="bg-dark-new py-3">
         <div class="container">
           <div class="text-center text-light">Copyright © 2019 - <a href="https://www.sneakybaron.gg">SneakyBaron.gg</a></div>

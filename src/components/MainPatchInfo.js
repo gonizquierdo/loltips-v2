@@ -91,7 +91,7 @@ export default class MainPatchInfo extends React.Component
               )
             }
           <hr className="border-light"></hr>
-          <small className="font-italic text-muted">Toda la información fue obtenida a partir de diversas fuentes online (YouTube, notas oficiales, reviews, etc.) y adaptada por nuestro equipo para simplificar la lectura por parte del usuario.</small>
+          <small className="font-italic text-muted">{t("main_patch.sources")}</small>
         </div>
 
 
