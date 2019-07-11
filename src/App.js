@@ -44,7 +44,7 @@ function App() {
 
       </div>
 
-      <footer class="bg-dark-new py-3">
+      <footer class="bg-dark-new py-3 mt-2">
         <div class="container">
           <div class="text-center text-light">Copyright © 2019 - <a href="https://www.sneakybaron.gg">SneakyBaron.gg</a></div>
         </div>
