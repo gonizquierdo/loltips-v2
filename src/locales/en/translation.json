@@ -13,6 +13,7 @@
   "join_team.text": "We are a growing team of players and we are always looking to meet new people interested in League of Legends.",
   "join_team.contact": "If you want to be a part of this project or contribute in your own way, get in touch with us at ",
   "main_patch.current_patch": "Current patch",
+  "main_patch.sources": "All the data was obtained from different online sources (YouTube, official information, reviews, etc.) and shaped by our team to make it simple to the user to read and understand it. We choose the god tier champions considering the win/pick ratio of every champion in each leagues.",
   "tier_list.top_champions_title": "Top champion picks",
   "tier_list.top_champions_intro":  "These are the best champions in patch ",
   "tier_list.top_champions_text": "Although it is not a certain win, playing champions that are strong in the current meta can give you an advantage over your opponent.",
