@@ -1,15 +1,8 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  color: black;
-  background-image: url('./assets/resources/bg-huge-3.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
+  background-image: url("./assets/resources/bg-huge-4.jpg");
 }
-
 .App-header {
   background-color: #282c34;
   color: white;
@@ -17,7 +10,8 @@
 
 .logo {
   max-height: 4rem!important;
-  font-size: 1.7rem!important;
+  font-size: 2rem!important;
+  font-weight: lighter;
 }
 
 .nav-item a{
@@ -29,8 +23,8 @@
 }
 
 .main-navbar {
-  margin-bottom: 1%;
-  background: #e9ecef;
+  box-shadow: $box-shadow;
+  background-color: #20232a;
 }
 
 .information {
@@ -81,8 +75,8 @@ h4 {
 }
 
 .btn-scattler {
-  background-color: #009060;
-  border-color: #009060;
+  background-color: #0099CC;
+  border-color: #0099CC;
   border-radius: 0;
   color: white;
 }
@@ -95,8 +89,16 @@ h4 {
   color: #009060;
 }
 
+.text-blue-new{
+  color: #0099CC;
+}
+
 .bg-darker {
   background-color: #2a2f33;
+}
+
+.bg-dark-new{
+  background-color: #20232a;
 }
 
 .bg-dark-transparent {
@@ -107,9 +109,18 @@ h4 {
   background-color: rgba(1, 1, 1, 0.7);
 }
 
+.bg-dark-blue {
+  background-color: #273542!important
+}
+
 .border-amumu-3 {
   border-bottom: 3px solid;
   border-color: #009060;
+}
+
+.border-blue-3{
+  border-bottom: 3px solid;
+  border-color: #0099CC;
 }
 
 .tab {

@@ -24,8 +24,8 @@ export default class PatchNotes extends React.Component
     const { patch_data } = this.props
     console.log(patch_data.buffs)
     return(
-      <div className='container info-panel'>
-        <h2 className="border-amumu-3">{t('patch_notes.important_highlights')}</h2>
+      <div className="info-panel">
+        <h2 className="border-blue-3">{t('patch_notes.important_highlights')}</h2>
         <div>
           <p>{t('patch_notes.summary')}</p>
         </div>
