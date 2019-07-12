@@ -2,6 +2,8 @@
   text-align: center;
   min-height: 100vh;
   background-image: url("./assets/resources/bg-huge-4.jpg");
+  background-repeat:no-repeat;
+  background-position: center center;
 }
 .App-header {
   background-color: #282c34;
