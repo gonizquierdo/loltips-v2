@@ -29,9 +29,16 @@ export function getUpdatesList(patch)
   return data["updates"]
 }
 
+export function getPatchData(patch){
+  const lang = locale()
+  var data = require('./data/patches/'+ lang + '/'+ '915.json')
+  return data;
+}
+
 export function getCurrentPatch(){
   return config["currentPatch"]
 }
+
 export function getChampionsTiles()
 {
   return {
@@ -154,7 +161,7 @@ export function getChampionsTiles()
     'Tristana': require('./assets/champion/Tristana.png'),
     'Trundle': require('./assets/champion/Trundle.png'),
     'Tryndamere': require('./assets/champion/Tryndamere.png'),
-    'TwistedFate': require('./assets/champion/TwistedFate.png'),
+    'Twisted Fate': require('./assets/champion/TwistedFate.png'),
     'Twitch': require('./assets/champion/Twitch.png'),
     'Udyr': require('./assets/champion/Udyr.png'),
     'Urgot': require('./assets/champion/Urgot.png'),
@@ -205,3 +212,6 @@ export function getLeagueIcons()
     'diamond': require('./assets/leagues/diamond.png')
   }
 }
+
+
+

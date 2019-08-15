@@ -1,0 +1,94 @@
+{
+  "top_champions": {
+    "iron":{
+      "top": ["Urgot", "Nasus", "Jax", "Rumble", "Garen"],
+      "jg": ["Amumu", "Vi", "Volibear","Jax","Rammus"],
+      "mid": ["Malzahar", "Veigar", "Ahri", "Yasuo", "Brand"],
+      "adc": ["MissFortune", "Sivir", "Jinx", "Caitlyn", "Xayah"],
+      "sup": ["Nautilus", "Taric", "Sona", "Nami", "Bard"]
+    },
+    "bronze":{
+      "top": ["Yorick", "Garen", "Nasus", "Urgot", "Mordekaiser"],
+      "jg": ["Skarner", "Amumu", "Volibear","Vi","Rammus"],
+      "mid": ["Malzahar", "Velkoz", "Brand", "Fizz", "Ahri"],
+      "adc": ["Sivir", "Jinx", "MissFortune", "Ashe", "KogMaw"],
+      "sup": ["Velkoz", "Sona", "Taric", "Brand", "Nami"]
+    },
+    "silver":{
+      "top":["Yorick", "Garen", "Nasus", "Urgot", "Mordekaiser"],
+      "jg":["Amumu", "Volibear", "Nunu","Vi","Warwick"],
+      "mid":["Malzahar", "Lux", "Velkoz", "Veigar", "Brand"],
+      "adc": ["Sivir", "Jinx", "MissFortune", "Ashe", "KogMaw"],
+      "sup": ["Sona", "Janna", "Velkoz", "Zilean", "Nami"]
+    },
+    "gold":{
+      "top":["Yorick", "Garen", "Kayle", "Mordekaiser", "Urgot"],
+      "jg":["Nunu", "Amumu", "Volibear","Vi","Warwick"],
+      "mid":["Malzahar", "Ahri", "Lux", "Anivia", "Veigar"],
+      "adc": ["Jinx", "Sivir", "Ashe", "MissFortune", "KogMaw"],
+      "sup": ["Sona", "Janna", "Nami", "Zilean", "Soraka"]
+    },
+    "platinum":{
+      "top":["Yorick", "Mordekaiser", "Garen", "Tahm Kench", "Karma"],
+      "jg":["Nunu", "Vi", "Amumu","Hecarim","Warwick"],
+      "mid":["Malzahar", "Ahri", "Lux", "Velkoz", "Anivia"],
+      "adc": ["Jinx", "Sivir", "KogMaw", "MissFortune", "Ashe"],
+      "sup": ["Sona", "Janna", "Nami", "Velkoz", "Soraka"]
+    },
+    "diamond":{
+      "top":["Kled", "Yorick", "Singed", "Kennen", "Karma"],
+      "jg":["Nunu", "Vi", "Shaco", "Udyr","Hecarim"],
+      "mid":["Malzahar", "Ahri", "Velkoz", "Katarina", "Zed"],
+      "adc": ["Jinx", "Sivir", "Vayne", "Draven", "Xayah"],
+      "sup": ["Sona", "Zilean", "Velkoz", "Nami", "Soraka"]
+    }
+  },
+  "lol":{
+    "buffs": [
+      "Galio Colossal Smash now is affected by CDR and have increased damage. Also, Justice Punch has increased base damage.",
+      "Graves Quickdraw arpor per stack increased.",
+      "Kha'Zix Taste their Fear base damage increased.",
+      "LeBlanc Ethereal Chains base root damage increased.",
+      "Lee Sin Sonic Wave/Resonating Strike base/max/min damage increased.",
+      "Lissandra base health stats and Frozen Tomb damage ratio increased.",
+      "Lucian The culling damage per shot increased.",
+      "Malphite whole kit buffed.",
+      "Poppy Steadfast Presence movement speed increased.",
+      "Soraka Starcall base damage increased.",
+      "Swain Death's Hand bolt range increased.",
+      "Syndra Unleashed Power base damage per sphere increased.",
+      "Vayne Condemn wall hit damage increased. Also it deals damage instantly"
+    ],
+    "nerfs": [
+      "Evelynnn Hate Spyke cooldown refund rate reduced.",
+      "Karma Defiance got her bonus shield reduced.",
+      "Rumble Scrap Shield nerfed."
+    ],
+    "updates": [
+      "Qiyana Supreme Display of Talent now have especific cooldown for each level.",
+      "Xerath Rite of the Arcane range is now 5000 at all levels"
+    ]
+  },
+  "tft":{
+    "buffs": [
+      "Win/Loss streaks are easier to get.",
+      "Brand and Lissandra Ability Damage got incresead.",
+      "Guardian know have increase armor per stack. Also Braum and Leona got icreased base armor.",
+      "Knight block damage now aplies to all alies and block all types of damage sources.",
+      "Pirate averge gold per chest is increased.",
+      "Yordle now also dodges On-hit effects."
+    ],
+    "nerfs": [
+      "Damage to players from certain tier of champions and monsters is reduced.",
+      "Demons mana burn chance and ability damage is drasticaly reduced.",
+      "Dragon Magic inmmunity is reduced.",
+      "Noble bonus Armor reduced. Also Vayne and garen attack damage and attack speed got reduced.",
+      "Void Trait Bonus now is applied to void champions only and now deals true damage. All void champions got buffed."
+    ],
+    "updates": [
+      "Thornmail now deals magic damage instead of true damage.",
+      "Ninjas bouns damage is now flat damages."
+      
+    ]
+  }  
+}

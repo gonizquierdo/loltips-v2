@@ -3,7 +3,7 @@ import { t , locale } from '../i18n.js'
 
 export default class PatchNotes extends React.Component
 {
-  props: {
+  props:  {
     patch: 'string',
     patch_data: Object
   }
