@@ -21,11 +21,11 @@ class CustomNavbar extends React.Component {
             <div>Powered by <a href="https://www.sneakybaron.gg"><img src={logo} width="200" className="" alt="Sb logo leters" /></a></div>
           </div>
         </nav>
-        <nav className="navbar bg-darker navbar-expand-lg">
+        <nav className="navbar bg-semi-dark navbar-expand-lg">
           <div className="container">
-            <div className="row links pt-1 align-self-start">
-              <div className="col-auto"><Link to="/"><h5>League of Legends</h5></Link></div>
-              <div className="col-auto"><Link to="/tft/"><h5>Teamfight Tactics</h5></Link></div>
+            <div className="row links pt-1 align-self-start text-uppercase">
+              <div className="col-auto"><Link className="text-light" to="/"><p>League of Legends</p></Link></div>
+              <div className="col-auto"><Link className="text-light" to="/tft/"><p>Teamfight Tactics</p></Link></div>
             </div>
           </div>
         </nav>

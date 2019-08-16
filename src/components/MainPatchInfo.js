@@ -93,11 +93,7 @@ export default class MainPatchInfo extends React.Component
           <hr className="border-light"></hr>
           <small className="font-italic text-muted">{t("main_patch.sources")}</small>
         </div>
-
-
-
       </div>
     )
   }
-
 }
