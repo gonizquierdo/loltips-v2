@@ -1,12 +1,12 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background-image: url("./assets/resources/bg-huge-4.jpg");
+  background: linear-gradient(transparent, #ffff), url("./assets/resources/bg-huge-4.jpg") no-repeat;
 }
+
 .App-header {
   background-color: #282c34;
   color: white;
-
 }
 
 .logo {

@@ -1,9 +1,0 @@
-{
-    "tiers" : {
-    "Tier 1":["Garen","Kassadin", "Graves", "Tristana" ],
-    "Tier 2":["Lissandra","Twisted Fate"],
-    "Tier 3":["Kennen","Volibear"],
-    "Tier 4":["Brand","Draven","Sejuani"],
-    "Tier 5":["Anivia","Yasuo"]
-    }
-}
