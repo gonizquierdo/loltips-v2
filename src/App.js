@@ -1,32 +1,29 @@
 import React from 'react'
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import CustomNavbar from './components/CustomNavbar'
 import MainPatchInfo from './components/MainPatchInfo'
 import Footer from './components/Footer'
 import { getCurrentPatch } from './utils.js'
+import TeamfightTactics from './components/TeamfightTactics'
 
 
 function App() {
   const currentPatch = getCurrentPatch();
   return (
-    <Router>
-      <div className="App text-light bg-dark">
-        <CustomNavbar/>
-        <header className="App-header">
-        </header>
-        <Route exact path="/" render={props =>
-          <div className="mt-5 container">
-            <MainPatchInfo patch={currentPatch}/>
-          </div>
-        }
-        />
-        <Footer/>
+    <div className="App text-light bg-dark">
+      <CustomNavbar />
+      <header className="App-header">
+      </header>
+      <div className="mt-5 container">
+        <Switch>
+          <Route exact path="/" render={(props) => <MainPatchInfo patch={currentPatch} />} />
+          <Route exact path="/tft/" render={(props) => <TeamfightTactics patch={currentPatch} />} />
+        </Switch>
       </div>
-
-
-    </Router>
+      <Footer />
+    </div>
   );
 }
 

@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background-image: url("./assets/resources/bg-huge-4.jpg");
+  background: linear-gradient(transparent, #ffff), url("./assets/resources/bg-huge-4.jpg") no-repeat;
 }
+
 .App-header {
   background-color: #282c34;
   color: white;
@@ -38,6 +39,15 @@ h4 {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+.links h5{
+  color: white
+}
+
+.links h5:hover{
+  text-decoration: underline;
+  text-decoration-color: #0099CC
 }
 
 .wrapped {
@@ -94,7 +104,11 @@ h4 {
 }
 
 .bg-darker {
-  background-color: #2a2f33;
+  background-color: #1a1b1b;
+}
+
+.bg-semi-dark {
+  background-color: #5b616f;
 }
 
 .bg-dark-new{
@@ -143,4 +157,13 @@ h4 {
   to {
     transform: rotate(360deg);
   }
+}
+
+.tooltip-inner{
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #222b28;
+  border-radius: .25rem;
 }

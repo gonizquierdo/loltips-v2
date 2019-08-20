@@ -1,3 +1,4 @@
+
 {
   "navbar.patch_highlights": "Análisis del parche",
   "navbar.about_us": "Sobre nosotros",
@@ -22,5 +23,9 @@
   "patch_notes.dangerous_buffs": "Buffs peligrosos",
   "patch_notes.killer_nerfs": "Nerfs asesinos",
   "patch_notes.updates": "Cambios y actualizaciones",
-  "patch_notes.official_notes": "Ver notas oficiales del parche"
+  "patch_notes.official_notes": "Ver notas oficiales del parche",
+  "patch_notes.tactical_buffs": "Buffs tacticos",
+  "patch_notes.strategic_nerfs": "Nerfs estrategicos",
+  "patch_notes.tft_updates":"Cambios neutrales",
+  "cheatsheet":"Sabemos que algunas veces es dificil de recordar todos los items dentro de Teamfight Tactics. Por eso, pensamos en dejarles una pequeña ayuda con las recetas de los items en sus futura batallas."
 }

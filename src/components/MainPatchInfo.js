@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 
 import { t, locale } from '../i18n.js'
-import { getLeagueIcons } from '../utils.js'
+import { getLeagueIcons, getPatchData } from '../utils.js'
 
 import TierList from './TierList'
 import PatchNotes from './PatchNotes'
@@ -24,9 +24,9 @@ export default class MainPatchInfo extends React.Component
   }
 
   componentDidMount() {
-    axios.get('https://api.sneakybaron.gg/api/patch/'+locale()+'/'+this.props.patch.split(".").join(""))
+    axios.get('https://sneaky-static-data.s3.us-east-2.amazonaws.com/parches_new/'+locale()+'/'+this.props.patch.split(".").join("")+'.json')
     .then(response => {
-      let json = response.data
+      let json = response.data.lol
       this.setState({ patch_data: json })
     })
   }
@@ -93,11 +93,7 @@ export default class MainPatchInfo extends React.Component
           <hr className="border-light"></hr>
           <small className="font-italic text-muted">{t("main_patch.sources")}</small>
         </div>
-
-
-
       </div>
     )
   }
-
 }

@@ -22,6 +22,9 @@
   "patch_notes.dangerous_buffs": "Danerous buffs",
   "patch_notes.killer_nerfs": "Killer nerfs",
   "patch_notes.updates": "Updates and changes",
-  "patch_notes.official_notes": "View official patch notes"
-
+  "patch_notes.official_notes": "View official patch notes",
+  "patch_notes.tactical_buffs": "Tactical buffs",
+  "patch_notes.strategic_nerfs": "Strategic nerfs",
+  "patch_notes.tft_updates":"Neutral changes", 
+  "cheatsheet": "We know, that sometimes you need a little help to remember the whole items set on Teamfight Tactics, so we wanted to help you in your battles with this cheat sheet for the items recipes of this gamemode."
 }
