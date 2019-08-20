@@ -3,7 +3,8 @@ import { withRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 
-import logo from '../assets/logo_letras.png'
+import logo from '../assets/logo_letras.png';
+import tftlogo from '../assets/TFT_logo.png';
 
 class CustomNavbar extends React.Component {
 
@@ -23,7 +24,7 @@ class CustomNavbar extends React.Component {
         </nav>
         <nav className="navbar bg-semi-dark navbar-expand-lg">
           <div className="container">
-            <div className="row links pt-1 align-self-start text-uppercase">
+            <div className="row links pt-3 align-self-start text-uppercase">
               <div className="col-auto"><Link className="text-light" to="/"><p>League of Legends</p></Link></div>
               <div className="col-auto"><Link className="text-light" to="/tft/"><p>Teamfight Tactics</p></Link></div>
             </div>

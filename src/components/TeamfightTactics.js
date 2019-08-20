@@ -5,6 +5,8 @@ import { t, locale } from '../i18n.js';
 import { getPatchData } from '../utils.js';
 import icon from '../assets/TTF_Items.png';
 
+import WaitSpinner from './WaitSpinner.js';
+
 export default class TeamfightTactics extends React.Component {
   props: {
       patch: 'string'
@@ -87,9 +89,7 @@ export default class TeamfightTactics extends React.Component {
       const { patch_data } = this.state
       return (
 
-        Object.keys(patch_data).length ? this.render_notes_text(patch_data) : (<div class="spinner-border" role="status">
-          <span class="sr-only">Loading...</span>
-        </div>
+        Object.keys(patch_data).length ? this.render_notes_text(patch_data) : (<WaitSpinner/>
         )
       )
   }
