@@ -17,10 +17,8 @@ function App() {
       <header className="App-header">
       </header>
       <div className="mt-5 container">
-        <Switch>
-          <Route exact path="/" render={(props) => <MainPatchInfo patch={currentPatch} />} />
-          <Route exact path="/tft/" render={(props) => <TeamfightTactics patch={currentPatch} />} />
-        </Switch>
+        <Route exact path="/" render={(props) => <MainPatchInfo patch={currentPatch} />} />
+        <Route path="/tft/" render={(props) => <TeamfightTactics patch={currentPatch} />} />
       </div>
       <Footer />
     </div>
