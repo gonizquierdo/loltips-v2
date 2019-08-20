@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 
 import logo from '../assets/logo_letras.png';
-import tftlogo from '../assets/TFT_logo.png';
 
 class CustomNavbar extends React.Component {
 
