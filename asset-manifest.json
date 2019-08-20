@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.9f154308.chunk.css",
-  "main.js": "/static/js/main.3e9885b1.chunk.js",
-  "main.js.map": "/static/js/main.3e9885b1.chunk.js.map",
-  "static/js/1.5d22bac3.chunk.js": "/static/js/1.5d22bac3.chunk.js",
-  "static/js/1.5d22bac3.chunk.js.map": "/static/js/1.5d22bac3.chunk.js.map",
+  "main.css": "/static/css/main.6347a2f5.chunk.css",
+  "main.js": "/static/js/main.0e4cb513.chunk.js",
+  "main.js.map": "/static/js/main.0e4cb513.chunk.js.map",
+  "static/js/1.d2add415.chunk.js": "/static/js/1.d2add415.chunk.js",
+  "static/js/1.d2add415.chunk.js.map": "/static/js/1.d2add415.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/Nidalee.png": "/static/media/Nidalee.335f7864.png",
@@ -159,8 +159,8 @@
   "static/media/gold.png": "/static/media/gold.628a8076.png",
   "static/media/platinum.png": "/static/media/platinum.fbf7ad43.png",
   "static/media/diamond.png": "/static/media/diamond.2827c5bf.png",
-  "static/css/main.9f154308.chunk.css.map": "/static/css/main.9f154308.chunk.css.map",
+  "static/css/main.6347a2f5.chunk.css.map": "/static/css/main.6347a2f5.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4aeb268a3896964de6be1edfcdf655bd.js": "/precache-manifest.4aeb268a3896964de6be1edfcdf655bd.js",
+  "precache-manifest.9290200d89f38e3b29ab6058d3a4bf59.js": "/precache-manifest.9290200d89f38e3b29ab6058d3a4bf59.js",
   "service-worker.js": "/service-worker.js"
 }
