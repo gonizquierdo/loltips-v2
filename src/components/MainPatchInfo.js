@@ -6,6 +6,7 @@ import { getLeagueIcons, getPatchData } from '../utils.js'
 
 import TierList from './TierList'
 import PatchNotes from './PatchNotes'
+import WaitSpinner from './WaitSpinner'
 
 
 export default class MainPatchInfo extends React.Component
@@ -85,10 +86,7 @@ export default class MainPatchInfo extends React.Component
         </div>
         <div className="shadow mt-0 p-3 bg-dark-new text-light rounded-right rounded-bottom text-justify">
             {
-              Object.keys(patch_data).length ? this.renderComponents() : (<div class="spinner-border" role="status">
-                <span class="sr-only">Loading...</span>
-              </div>
-              )
+              Object.keys(patch_data).length ? this.renderComponents() : (<WaitSpinner/>)
             }
           <hr className="border-light"></hr>
           <small className="font-italic text-muted">{t("main_patch.sources")}</small>

@@ -167,3 +167,7 @@ h4 {
   background-color: #222b28;
   border-radius: .25rem;
 }
+
+.spinner-margin{
+  min-height: 50vh;
+}
