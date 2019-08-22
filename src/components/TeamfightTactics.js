@@ -24,7 +24,7 @@ export default class TeamfightTactics extends React.Component {
     this.setState({showing: view})
   }
   componentDidMount() {
-    axios.get('https://sneaky-static-data.s3.us-east-2.amazonaws.com/parches_new/'+locale()+'/'+this.props.patch.split(".").join("")+'.json')
+    axios.get('https://sneaky-static-data.s3.us-east-2.amazonaws.com/parches/'+locale()+'/'+this.props.patch.split(".").join("")+'.json')
     .then(response => {
       let json = response.data.tft
       this.setState({ patch_data: json })
@@ -33,10 +33,10 @@ export default class TeamfightTactics extends React.Component {
   get_link_for_language() {
       const lang = locale();
       if (lang === 'en') {
-          return 'https://na.leagueoflegends.com/en/news/game-updates/patch/teamfight-tactics-915-notes';
+          return 'https://na.leagueoflegends.com/en/news/game-updates/patch/teamfight-tactics-'+this.props.patch.split(".").join("")+'-notes';
       }
       else {
-          return 'https://las.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-915-de-teamfight-tactics';
+          return 'https://las.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-'+this.props.patch.split(".").join("")+'-de-teamfight-tactics';
       }
   }
 
