@@ -25,9 +25,9 @@ export default class MainPatchInfo extends React.Component
   }
 
   componentDidMount() {
-    axios.get('https://sneaky-static-data.s3.us-east-2.amazonaws.com/parches_new/'+locale()+'/'+this.props.patch.split(".").join("")+'.json')
+    axios.get('https://sneaky-static-data.s3.us-east-2.amazonaws.com/parches/'+locale()+'/'+this.props.patch.split(".").join("")+'.json')
     .then(response => {
-      let json = response.data.lol
+      let json = response.data
       this.setState({ patch_data: json })
     })
   }
@@ -45,7 +45,7 @@ export default class MainPatchInfo extends React.Component
           <TierList patch={patch} patch_data={patch_data} league={league_value}/>
         </div>
         <div className="col">
-          <PatchNotes patch={patch} patch_data={patch_data} />
+          <PatchNotes patch={patch} patch_data={patch_data.lol} />
         </div>
       </div>
     )
