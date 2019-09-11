@@ -2,6 +2,7 @@
   text-align: center;
   min-height: 100vh;
   background: linear-gradient(transparent, #ffff), url("./assets/resources/bg-huge-4.jpg") no-repeat;
+  background-size: cover;
 }
 
 .App-header {
