@@ -15,6 +15,14 @@
   font-weight: lighter;
 }
 
+.navbar a:link, 
+.navbar a:visited, 
+.navbar a:hover, 
+.navbar a:active {
+  text-decoration: none;
+  color: #fff !important;
+}
+
 .nav-item a{
   color: #fff !important;
 }

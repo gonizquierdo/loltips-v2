@@ -17,7 +17,7 @@ class CustomNavbar extends React.Component {
       <div>
         <nav className="navbar bg-dark-new navbar-expand-lg">
           <div className="container">
-            <h1 className="logo js-scroll-trigger"> Sneaky<b className="text-blue-new">Notes</b></h1>
+            <h1 className="logo js-scroll-trigger"> <a href="https://notes.sneakybaron.gg/">Sneaky<b className="text-blue-new">Notes</b></a></h1>
             <div>Powered by <a href="https://www.sneakybaron.gg"><img src={logo} width="200" className="" alt="Sb logo leters" /></a></div>
           </div>
         </nav>
