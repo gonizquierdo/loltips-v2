@@ -16,9 +16,11 @@ function App() {
       <CustomNavbar />
       <header className="App-header">
       </header>
-      <div className="mt-5 container">
-        <Route exact path="/" render={(props) => <MainPatchInfo patch={currentPatch} />} />
-        <Route path="/tft/" render={(props) => <TeamfightTactics patch={currentPatch} />} />
+      <div class="bg-main pb-5 pt-5">
+        <div className="container">
+          <Route exact path="/" render={(props) => <MainPatchInfo patch={currentPatch} />} />
+          <Route path="/tft/" render={(props) => <TeamfightTactics patch={currentPatch} />} />
+        </div>
       </div>
       <Footer />
     </div>
