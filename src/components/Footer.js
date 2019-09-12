@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
   render() {
 
     return (
-      <footer className="bg-dark-new py-3 mt-5">
+      <footer className="bg-dark-new py-3">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-auto"> 
